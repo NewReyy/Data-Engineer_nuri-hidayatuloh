@@ -23,6 +23,5 @@ Berikut adalah beberapa keterampilan penting yang dibutuhkan untuk menjadi seora
 **Referensi:**
 
 * [https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer](https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer)
-* [URL yang tidak valid dihapus]
 * [https://glints.com/id/lowongan/skill-data-engineering/](https://glints.com/id/lowongan/skill-data-engineering/)
 * [https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer](https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer)
