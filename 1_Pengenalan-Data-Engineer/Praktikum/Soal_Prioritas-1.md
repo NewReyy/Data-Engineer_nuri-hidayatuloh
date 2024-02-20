@@ -62,6 +62,7 @@ Dari berbagai tahapan alur hingga komponen digital yang dapat membentuk digitali
 * [https://youtu.be/sF04UxNAvmg?si=9rFlB8GKYhuVFgdz](https://youtu.be/sF04UxNAvmg?si=9rFlB8GKYhuVFgdz)
 * [https://www.linkedin.com/pulse/importance-data-engineering-era-big-analytics-the-research-world/](https://www.linkedin.com/pulse/importance-data-engineering-era-big-analytics-the-research-world/)
 * [https://www.itb.ac.id/news/read/58742/home/menilik-peran-data-engineering-pada-industri-40](https://www.itb.ac.id/news/read/58742/home/menilik-peran-data-engineering-pada-industri-40)
+* [https://one.alterra.academy/courses/data-engineer/lessons/pengenalan-data-engineer-part-1/topic/materi-de-pengenalan-data-engineer/](https://one.alterra.academy/courses/data-engineer/lessons/pengenalan-data-engineer-part-1/topic/materi-de-pengenalan-data-engineer/)
 * [https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer](https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer)
 * [https://glints.com/id/lowongan/skill-data-engineering/](https://glints.com/id/lowongan/skill-data-engineering/)
 * [https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer](https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer)
