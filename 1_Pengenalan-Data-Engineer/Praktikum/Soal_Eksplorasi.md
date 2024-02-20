@@ -12,7 +12,7 @@ Berdasarkan kasus e-commerce yang ingin mendapatkan pengetahuan mengenai jumlah 
 
 Berikut adalah diagram sederhana dari Batch Processing Pipeline untuk kasus e-commerce:
 
-<img alt="diagram" width="1000" src="Screenshots/Diagram Data Pipeline.png">
+<img alt="diagram" width="1000" src="../Screenshots/Diagram Data Pipeline.png">
 
 **Penjelasan diagram:**
 
