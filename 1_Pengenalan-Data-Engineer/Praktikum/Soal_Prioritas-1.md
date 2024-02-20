@@ -24,6 +24,8 @@ Berikut adalah beberapa keterampilan penting yang dibutuhkan untuk menjadi seora
 
 * [https://books.google.co.id/books?hl=en&lr=&id=ZTQzEAAAQBAJ&oi=fnd&pg=PT3&dq=data+engineer&ots=oICBC_jtqx&sig=kiP5AYLlJw7mIfLbA8W46QOxIWM&redir_esc=y#v=onepage&q=data%20engineer&f=false](https://books.google.co.id/books?hl=en&lr=&id=ZTQzEAAAQBAJ&oi=fnd&pg=PT3&dq=data+engineer&ots=oICBC_jtqx&sig=kiP5AYLlJw7mIfLbA8W46QOxIWM&redir_esc=y#v=onepage&q=data%20engineer&f=false)
 * [https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2762013](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2762013)
+* [https://youtu.be/12ka1OPdSf4?si=OcHLOAl2-fvfIta0](https://youtu.be/12ka1OPdSf4?si=OcHLOAl2-fvfIta0)
+* [https://youtu.be/sF04UxNAvmg?si=9rFlB8GKYhuVFgdz](https://youtu.be/sF04UxNAvmg?si=9rFlB8GKYhuVFgdz)
 * [https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer](https://dqlab.id/yuk-pelajari-macam-macam-skill-data-engineer)
 * [https://glints.com/id/lowongan/skill-data-engineering/](https://glints.com/id/lowongan/skill-data-engineering/)
 * [https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer](https://dqlab.id/deretan-skill-penting-untuk-siap-jadi-data-engineer)
