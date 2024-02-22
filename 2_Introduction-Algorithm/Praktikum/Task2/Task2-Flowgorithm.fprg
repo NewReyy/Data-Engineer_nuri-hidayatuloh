@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 11:09:48 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMDo1ODowMiBQTTsyNjMw"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMTowOTo0OCBQTTs0OzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sisiAtas, sisiBawah, tinggi, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Sisi Atas Trapesium&quot;" newline="True"/>
+            <input variable="sisiAtas"/>
+            <output expression="&quot;Masukkan Sisi Bawah Trapesium&quot;" newline="True"/>
+            <input variable="sisiBawah"/>
+            <while expression="sisiAtas == sisiBawah">
+                <output expression="&quot;Masukkan Sisi Bawah Trapesium Lagi! Panjang dari Sisi Bawah Tidak Boleh Sama Dengan Sisi Atas!&quot;" newline="False"/>
+                <input variable="sisiBawah"/>
+            </while>
+            <output expression="&quot;Masukkan Tinggi Trapesium&quot;" newline="True"/>
+            <input variable="tinggi"/>
+            <assign variable="luas" expression="1/2 * (sisiAtas + sisibawah) * tinggi"/>
+            <output expression="&quot;Jadi Luas Trapesiumnya adalah : &quot; &amp; luas &amp; &quot; cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

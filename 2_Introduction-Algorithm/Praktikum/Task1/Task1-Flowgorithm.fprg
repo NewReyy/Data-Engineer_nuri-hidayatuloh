@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 10:57:36 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMDozMzowMSBQTTsyNjIy"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMDo1NzozNiBQTTs2OzI3NDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="luas, r" type="Real" array="False" size=""/>
+            <declare name="phi" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan Nilai r (Jari-jari)&quot;" newline="True"/>
+            <input variable="r"/>
+            <if expression="r % 7 == 0">
+                <then>
+                    <assign variable="phi" expression="22/7"/>
+                    <assign variable="luas" expression="phi * r^2"/>
+                    <output expression="&quot;Jadi Luas Lingkarannya = &quot; &amp; luas" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="phi" expression="3.14"/>
+                    <assign variable="luas" expression="phi * r^2"/>
+                    <output expression="&quot;Jadi Luas Lingkarannya = &quot; &amp; luas" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

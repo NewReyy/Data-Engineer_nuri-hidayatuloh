@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ACER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-22 11:23:51 PM"/>
+        <attribute name="created" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMToxOTo1MyBQTTsyNjM0"/>
+        <attribute name="edited" value="QUNFUjtMQVBUT1AtOTg0VkxDVFY7MjAyNC0wMi0yMjsxMToyMzo1MSBQTTsyOzI3MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="panjang, lebar, luas" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Panjang&quot;" newline="True"/>
+            <input variable="panjang"/>
+            <output expression="&quot;Masukkan Lebar&quot;" newline="True"/>
+            <input variable="lebar"/>
+            <assign variable="luas" expression="panjang * lebar"/>
+            <if expression="luas % 2 == 0">
+                <then>
+                    <output expression="&quot;even rectangle&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;odd rectangle&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
