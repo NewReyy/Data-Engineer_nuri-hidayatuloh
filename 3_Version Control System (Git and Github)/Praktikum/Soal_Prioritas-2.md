@@ -9,3 +9,4 @@
     - terdapat foto terkait Pull Request
     **JAWABAN**
 
+![image](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/96c62906-63c5-4f18-9fe1-a84f3ac7c76c)
