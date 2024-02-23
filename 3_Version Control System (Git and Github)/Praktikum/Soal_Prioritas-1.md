@@ -21,17 +21,3 @@
 - melakukan commit
 
 ![image](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/02cf41c1-7422-4323-ab24-c0e1feaf7b3c)
-
-### Soal Prioritas **2 (20)**
-
-- Buatlah branch baru pada github yang kalian buat
-- Lakukan Pull Request pada branch tersebut sehingga akan menambah hal baru pada branch main/master
-    - terdapat foto terkait Pull Request
-
-### Soal **Explorasi (20)**
-
-- dengan project terserah kalian, praktikkan salah satu workflow serderhana dan buktikan dengan Screenshoot. github flow/gitflow/trunkbase
-    - akan ada foto terkait flow yang disebutkan
-- lakukan management konflik pada github
-- Lakukan code review pada github yang kalian kumpulkan
-    - terdapat foto seperti apa itu code review
