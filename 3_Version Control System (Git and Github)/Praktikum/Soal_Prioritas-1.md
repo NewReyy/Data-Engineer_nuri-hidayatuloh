@@ -2,9 +2,9 @@
 
 ### **Soal Prioritas 1 (80)**
 
-- buatlah sebuah repository github yang sesuai dengan namaKelas_namaKalian. contohnya
+- buatlah sebuah repository github yang sesuai dengan namaKelas_namaKalian. **Jawaban :**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3813ca65-4e59-4964-84eb-120beb155019/Untitled.png)
+![Screenshot (542)-1](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/1df3e82b-23d4-45b5-8c8f-2720fafe0653)
 
 - buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan. contoh penamaan
     - 1_Soal_GIthub
@@ -12,13 +12,15 @@
     - 3_Soal_Testing_Documentation
     - seterusnya sesuai dengan nama soal yang kalian kerjakan. buat folder tersebut sampai soal rest API.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c8a964e-7edf-45c8-9e5b-12694133c843/Untitled.png)
+![Screenshot (542)](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/8a7f3ab5-8f19-40f5-8433-bbef2b925f89)
 
 - pada setiap folder akan berisikan sub folder lagi seperti berikut
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1bd8c41-8e65-4a7a-b96a-bdada85f4389/Untitled.png)
+    ![Screenshot (543)](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/ee809e7c-178f-48b2-b0b4-86e879f778a7)
     
 - melakukan commit
+
+![image](https://github.com/NewReyy/Data-Engineer_nuri-hidayatuloh/assets/72202432/02cf41c1-7422-4323-ab24-c0e1feaf7b3c)
 
 ### Soal Prioritas **2 (20)**
 
