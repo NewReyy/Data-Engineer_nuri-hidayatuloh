@@ -14,7 +14,7 @@ Python and Virtual Environment:
 - Dibuat menggunakan **perintah-perintah seperti `venv`** atau menggunakan alat manajemen lingkungan seperti **`virtualenv` atau `conda`**.
 - **Mengisolasi** lingkungan Python dengan membuat salinan dari interpreter dan pustaka standar.
 
-Untuk menginstall dan menggunakan `venv` (Virtual Environment) di Windows, Anda dapat mengikuti langkah-langkah berikut:
+Untuk menginstall dan menggunakan `venv` (Virtual Environment) di Windows, dapat mengikuti langkah-langkah berikut:
 
 1. **Buka Command Prompt:**
    - Tekan `Win + R` untuk membuka jendela "Run".
