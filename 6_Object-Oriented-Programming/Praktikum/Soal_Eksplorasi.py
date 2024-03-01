@@ -1,3 +1,49 @@
+# Membuat kelas Pelatih
+class Pelatih:
+    def __init__(self, nama, spesialisasi, tahun_pengalaman):
+        self.__nama = nama
+        self.__spesialisasi = spesialisasi
+        self.__tahun_pengalaman = tahun_pengalaman
+
+    def get_nama(self):
+        return self.__nama
+
+    def get_spesialisasi(self):
+        return self.__spesialisasi
+
+    def get_tahun_pengalaman(self):
+        return self.__tahun_pengalaman
+
+# Membuat kelas KelasLatihan sebagai anak class dari Pelatih
+class KelasLatihan(Pelatih):
+    def __init__(self, jenis_latihan, jadwal, kapasitas, pelatih):
+        # Memanggil konstruktor dari class induk (Pelatih)
+        super().__init__(pelatih.get_nama(), pelatih.get_spesialisasi(), pelatih.get_tahun_pengalaman())
+        self.__jenis_latihan = jenis_latihan
+        self.__jadwal = jadwal
+        self.__kapasitas = kapasitas
+        self.__peserta_terdaftar = set()
+
+    def tampilkanInfo(self):
+        print(f"| Jenis Latihan: {self.__jenis_latihan}")
+        print(f"| Jadwal: {self.__jadwal}")
+        print(f"| Kapasitas: {self.__kapasitas} orang")
+        print(f"| Pelatih: {super().get_nama()} (Spesialisasi: {super().get_spesialisasi()}, Pengalaman: {super().get_tahun_pengalaman()} tahun)")
+
+    def pesanKelas(self, pelanggan):
+        if len(self.__peserta_terdaftar) < self.__kapasitas:
+            self.__peserta_terdaftar.add(pelanggan)
+            print(f"{pelanggan.get_nama()} berhasil mendaftar kelas {self.__jenis_latihan} yang diajar oleh {super().get_nama()}.")
+        else:
+            print(f"Kelas {self.__jenis_latihan} yang diajar oleh {super().get_nama()} sudah penuh. {pelanggan.get_nama()} tidak dapat mendaftar.")
+
+    def batalkanKelas(self, pelanggan):
+        if pelanggan in self.__peserta_terdaftar:
+            self.__peserta_terdaftar.remove(pelanggan)
+            print(f"{pelanggan.get_nama()} berhasil membatalkan kelas {self.__jenis_latihan} yang diajar oleh {super().get_nama()}.")
+        else:
+            print(f"{pelanggan.get_nama()} tidak terdaftar pada kelas {self.__jenis_latihan} yang diajar oleh {super().get_nama()}.")
+
 # Membuat kelas Pelanggan
 class Pelanggan:
     def __init__(self, nama, usia, id_pelanggan):
@@ -13,34 +59,6 @@ class Pelanggan:
 
     def get_id_pelanggan(self):
         return self.__id_pelanggan
-
-# Membuat kelas KelasLatihan
-class KelasLatihan:
-    def __init__(self, jenis_latihan, jadwal, kapasitas):
-        self.__jenis_latihan = jenis_latihan
-        self.__jadwal = jadwal
-        self.__kapasitas = kapasitas
-        self.__peserta_terdaftar = set()
-
-    def tampilkanInfo(self):
-        print(f"Jenis Latihan: {self.__jenis_latihan}")
-        print(f"Jadwal: {self.__jadwal}")
-        print(f"Kapasitas: {self.__kapasitas} orang")
-
-    def pesanKelas(self, pelanggan):
-        if len(self.__peserta_terdaftar) < self.__kapasitas:
-            self.__peserta_terdaftar.add(pelanggan)
-            print(f"{pelanggan.get_nama()} berhasil mendaftar kelas {self.__jenis_latihan}.")
-        else:
-            print(f"Kelas {self.__jenis_latihan} sudah penuh. {pelanggan.get_nama()} tidak dapat mendaftar.")
-
-    def batalkanKelas(self, pelanggan):
-        if pelanggan in self.__peserta_terdaftar:
-            self.__peserta_terdaftar.remove(pelanggan)
-            print(f"{pelanggan.get_nama()} berhasil membatalkan kelas {self.__jenis_latihan}.")
-        else:
-            print(f"{pelanggan.get_nama()} tidak terdaftar pada kelas {self.__jenis_latihan}.")
-
 
 # Membuat kelas ManajemenPelanggan
 class ManajemenPelanggan:
@@ -65,8 +83,14 @@ class ManajemenPelanggan:
 # Fungsi utama Program
 def main():
     manajemen_pelanggan = ManajemenPelanggan()
-    yoga_kelas = KelasLatihan("Yoga Pagi", "Senin", 10)
-    angkat_beban_kelas = KelasLatihan("AngkatBeban Sore", "Selasa", 8)
+    
+    # Membuat objek Pelatih
+    pelatih_yoga = Pelatih("Coach Yazid Ahmad Hisyam", "Yoga", 5)
+    pelatih_angkat_beban = Pelatih("Coach Rayhan Qalby", "Angkat Beban", 3)
+
+    # Membuat objek KelasLatihan dengan memasukkan objek Pelatih sebagai parameter
+    yoga_kelas = KelasLatihan("Yoga Pagi", "Senin", 10, pelatih_yoga)
+    angkat_beban_kelas = KelasLatihan("AngkatBeban Sore", "Selasa", 8, pelatih_angkat_beban)
 
     pelanggan_terlogin = None
 
@@ -74,7 +98,7 @@ def main():
         print("\n=== SISTEM PENDAFTARAN KELAS by Nuri Hidayatuloh DE Alterra Batch 6 ===")
 
         if pelanggan_terlogin:
-            # Jika pelanggan sudah login, tampilkan menu khusus
+            print(f"Selamat datang, {pelanggan_terlogin.get_nama()}!")
             print("1. Kelas Terdaftar")
             print("2. Pesan Kelas")
             print("3. Batalkan Kelas")
@@ -82,18 +106,20 @@ def main():
             pilihan = input("Pilih menu: ")
 
             if pilihan == "1":
-                # Informasi Kelas Terdaftar berdasarkan ID Pelanggan
                 print("\nKelas yang terdaftar:")
                 for peserta in yoga_kelas._KelasLatihan__peserta_terdaftar:
-                    print(f"- {peserta.get_nama()} (Yoga Pagi)")
+                    print(f"|- {peserta.get_nama()} (Yoga Pagi)")
+                    print(f"|=============================================================================|")
+                    yoga_kelas.tampilkanInfo()
                 for peserta in angkat_beban_kelas._KelasLatihan__peserta_terdaftar:
                     print(f"- {peserta.get_nama()} (AngkatBeban Sore)")
+                    print(f"|=============================================================================|")
+                    angkat_beban_kelas.tampilkanInfo()
 
             elif pilihan == "2":
-                # Pesan Kelas
                 print("\nKelas yang tersedia:")
-                print("1. Yoga Pagi")
-                print("2. AngkatBeban Sore")
+                print(f"1. Yoga Pagi diajar oleh {pelatih_yoga.get_nama()}")
+                print(f"2. AngkatBeban Sore diajar oleh {pelatih_angkat_beban.get_nama()}")
                 print("Ketik Apapun untuk kembali ke Menu")
                 kelas = input("Pilih kelas: ")
 
@@ -105,12 +131,11 @@ def main():
                     print("Kelas tidak valid.")
 
             elif pilihan == "3":
-                # Batalkan Kelas
                 print("\nKelas yang terdaftar:")
                 for peserta in yoga_kelas._KelasLatihan__peserta_terdaftar:
-                    print(f"- {peserta.get_nama()} (Yoga Pagi)")
+                    print(f"- {peserta.get_nama()} (Yoga Pagi) diajar oleh {pelatih_yoga.get_nama()}")
                 for peserta in angkat_beban_kelas._KelasLatihan__peserta_terdaftar:
-                    print(f"- {peserta.get_nama()} (AngkatBeban Sore)")
+                    print(f"- {peserta.get_nama()} (AngkatBeban Sore) diajar oleh {pelatih_angkat_beban.get_nama()}")
 
                 id_pelanggan = input("\nMasukkan ID Pelanggan yang akan membatalkan kelas: ")
                 if id_pelanggan == pelanggan_terlogin.get_id_pelanggan():
@@ -121,7 +146,6 @@ def main():
                     print("ID Pelanggan tidak terdaftar pada kelas manapun.")
 
             elif pilihan == "4":
-                # Keluar
                 print("Terima kasih!")
                 break
 
@@ -129,7 +153,6 @@ def main():
                 print("Pilihan tidak valid. Silakan pilih kembali.")
 
         else:
-            # Jika pelanggan belum login, tampilkan menu lengkap
             print("1. Register Pelanggan")
             print("2. Login Pelanggan")
             print("3. Keluar")
@@ -145,13 +168,11 @@ def main():
                 pelanggan_terlogin = manajemen_pelanggan.loginPelanggan(id_pelanggan)
 
             elif pilihan == "3":
-                # Keluar
                 print("Terima kasih!")
                 break
 
             else:
                 print("Pilihan tidak valid. Silakan pilih kembali.")
-
 
 if __name__ == "__main__":
     main()
