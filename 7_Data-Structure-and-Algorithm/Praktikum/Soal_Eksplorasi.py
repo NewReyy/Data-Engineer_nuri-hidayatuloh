@@ -23,6 +23,18 @@ class Pengguna:
         else:
             print("Kata sandi salah. Silakan coba lagi.")
 
+    def ubah_akun(self, nama_pengguna_lama, nama_pengguna_baru, kata_sandi_lama, kata_sandi_baru):
+        if self.nama_pengguna == nama_pengguna_lama and self.__kata_sandi == kata_sandi_lama:
+            self.nama_pengguna = nama_pengguna_baru
+            self.__kata_sandi = kata_sandi_baru
+            print("Akun berhasil diubah.")
+        elif self.nama_pengguna != nama_pengguna_lama:
+            print("Nama pengguna lama tidak sesuai.")
+        elif self.__kata_sandi != kata_sandi_lama:
+            print("Kata sandi lama tidak sesuai.")
+        else:
+            print("Perubahan akun tidak berhasil.")
+
 class Pengeluaran:
     def __init__(self, deskripsi, jumlah):
         self.id = str(uuid.uuid4())  # Membuat UUID sebagai ID pengeluaran
@@ -78,9 +90,9 @@ class PencatatPengeluaran:
         if self.pengguna_sekarang and self.pengguna_sekarang.pengeluaran:
             print("Daftar Pengeluaran Anda:")
             for pengeluaran in self.pengguna_sekarang.pengeluaran:
-                print("="*45)
-                print(f"| => ID: {pengeluaran.id}\n| => Deskripsi: {pengeluaran.deskripsi}\n| => Jumlah: {pengeluaran.jumlah}")
-                print("="*45)
+                print("="*50)
+                print(f"| => ID: {pengeluaran.id} \n| => Deskripsi: {pengeluaran.deskripsi} \n| => Jumlah: Rp. {pengeluaran.jumlah}")
+                print("="*50)
         else:
             print("Tidak ada pengeluaran ditemukan.")
 
@@ -101,11 +113,11 @@ pencatat_pengeluaran = PencatatPengeluaran()
 
 while True:
     if pencatat_pengeluaran.pengguna_sekarang is None:  # Jika belum ada pengguna yang masuk
-        print("\n======= MENU =======")
-        print("1. Daftar")
-        print("2. Masuk")
-        print("3. Keluar")
-        print("="*20)
+        print("\n====== MENU ======")
+        print("| 1. Daftar")
+        print("| 2. Masuk")
+        print("| 3. Keluar")
+        print("==================")
 
         pilihan = input("Masukkan pilihan Anda: ")
 
@@ -127,13 +139,14 @@ while True:
             print("Pilihan tidak valid. Silakan masukkan pilihan yang benar.")
 
     else:  # Jika sudah ada pengguna yang masuk
-        print("\n======= MENU =======")
-        print("1. Tambah Pengeluaran")
-        print("2. Lihat Pengeluaran")
-        print("3. Ubah Pengeluaran")
-        print("4. Hapus Pengeluaran")
-        print("5. Keluar")
-        print("="*20)
+        print("\n====== MENU ======")
+        print("| 1. Tambah Pengeluaran")
+        print("| 2. Lihat Pengeluaran")
+        print("| 3. Ubah Pengeluaran")
+        print("| 4. Hapus Pengeluaran")
+        print("| 5. Ubah Akun")
+        print("| 6. Keluar")
+        print("==================")
 
         pilihan = input("Masukkan pilihan Anda: ")
 
@@ -156,6 +169,13 @@ while True:
             pencatat_pengeluaran.hapus_pengeluaran(id_pengeluaran)
 
         elif pilihan == '5':
+            nama_pengguna_lama = input("Masukkan nama pengguna lama: ")
+            nama_pengguna_baru = input("Masukkan nama pengguna baru: ")
+            kata_sandi_lama = getpass("Masukkan kata sandi lama Anda: ")
+            kata_sandi_baru = getpass("Masukkan kata sandi baru Anda: ")
+            pencatat_pengeluaran.pengguna_sekarang.ubah_akun(nama_pengguna_lama, nama_pengguna_baru, kata_sandi_lama, kata_sandi_baru)
+
+        elif pilihan == '6':
             print("Keluar dari program. Sampai jumpa!")
             break
 
