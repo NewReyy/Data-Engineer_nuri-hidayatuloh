@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "20497b70-7d68-485c-87ae-f150cd12c6f4",
+		"name": "Soal_Eksplorasi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33587697"
+	},
+	"item": [
+		{
+			"name": "Soal_Eksplorasi-GET-ALL-CLIENT",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soal_Eksplorasi-GET-CLIENT-ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/1",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soal_Eksplorasi-POST-REQUEST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"client_id\": 1234,\r\n  \"client_key\": \"CLIENT01\",\r\n  \"client_secret\": \"SECRET01\",\r\n  \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Soal_Eksplorasi-PUT-REQUEST",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"client_id\": 1234,\r\n  \"client_key\": \"CLIENT01\",\r\n  \"client_secret\": \"SECRET01\",\r\n  \"status\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/1",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/client/1",
+					"protocol": "https",
+					"host": [
+						"virtserver",
+						"swaggerhub",
+						"com"
+					],
+					"path": [
+						"sepulsa",
+						"RentABook-API",
+						"1.0.0",
+						"client",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
