@@ -97,5 +97,6 @@ Normalisasi basis data memiliki beberapa keuntungan, di antaranya:
 ## Referensi
 
 * Data Terstruktur vs. Data Tidak Terstruktur: [https://gleematic.com/indonesia/perbedaan-data-terstruktur-semi-terstruktur-dan-tidak-terstruktur-dalam-rpa-dan-cognitive-automation/](https://gleematic.com/indonesia/perbedaan-data-terstruktur-semi-terstruktur-dan-tidak-terstruktur-dalam-rpa-dan-cognitive-automation/)
+* Materi Alterra Academy Fundamental DE Part 2: [https://one.alterra.academy/courses/data-engineer/lessons/fundamental-de-part-2/topic/materi-fundamental-de-part-2/]
 * Apa itu Basis Data Relasional?: [https://en.wikipedia.org/wiki/Relational_database](https://en.wikipedia.org/wiki/Relational_database)
 * Normalisasi Basis Data 1NF, 2NF, 3NF oleh Medium: [https://medium.com/telematika/normalisasi-1nf-2nf-3nf-1018bdecf028]
