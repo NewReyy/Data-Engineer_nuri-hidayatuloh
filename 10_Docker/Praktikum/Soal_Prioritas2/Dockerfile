@@ -9,6 +9,4 @@ RUN pip install --no-cache /wheels/*
 
 ENV CSV_FILE=data.csv
 
-VOLUME D:\App\Docker\volume-prioritas2
-
 CMD ["python", "main.py"]

@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+    environment:
+      - CSV_FILE=data.csv  # Nama file CSV yang akan dibaca oleh program
+    command: ["python", "main.py"]
