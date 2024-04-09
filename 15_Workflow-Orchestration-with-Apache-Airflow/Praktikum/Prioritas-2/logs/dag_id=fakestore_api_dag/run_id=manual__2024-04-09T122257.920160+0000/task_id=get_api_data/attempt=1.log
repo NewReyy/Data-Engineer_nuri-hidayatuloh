@@ -1,0 +1,50 @@
+[2024-04-09T12:23:09.858+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T12:23:09.897+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fakestore_api_dag.get_api_data manual__2024-04-09T12:22:57.920160+00:00 [queued]>
+[2024-04-09T12:23:09.929+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fakestore_api_dag.get_api_data manual__2024-04-09T12:22:57.920160+00:00 [queued]>
+[2024-04-09T12:23:09.930+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T12:23:10.002+0000] {taskinstance.py:2327} INFO - Executing <Task(SimpleHttpOperator): get_api_data> on 2024-04-09 12:22:57.920160+00:00
+[2024-04-09T12:23:10.043+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=518) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T12:23:10.045+0000] {standard_task_runner.py:63} INFO - Started process 528 to run task
+[2024-04-09T12:23:10.047+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fakestore_api_dag', 'get_api_data', 'manual__2024-04-09T12:22:57.920160+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/get_write_data_from_api.py', '--cfg-path', '/tmp/tmpzapmt52m']
+[2024-04-09T12:23:10.067+0000] {standard_task_runner.py:91} INFO - Job 11: Subtask get_api_data
+[2024-04-09T12:23:10.549+0000] {task_command.py:426} INFO - Running <TaskInstance: fakestore_api_dag.get_api_data manual__2024-04-09T12:22:57.920160+00:00 [running]> on host a05b73ef9a4b
+[2024-04-09T12:23:10.911+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fakestore_api_dag' AIRFLOW_CTX_TASK_ID='get_api_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-09T12:22:57.920160+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-09T12:22:57.920160+00:00'
+[2024-04-09T12:23:10.939+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T12:23:10.964+0000] {http.py:169} INFO - Calling HTTP method
+[2024-04-09T12:23:11.023+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T12:23:11.076+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 166, in execute
+    return self.execute_sync(context=context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 170, in execute_sync
+    response = self.hook.run(self.endpoint, self.data, self.headers, self.extra_options)
+               ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/operators/http.py", line 148, in hook
+    conn = BaseHook.get_connection(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py", line 519, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `fakestore_api` isn't defined
+[2024-04-09T12:23:11.103+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fakestore_api_dag, task_id=get_api_data, execution_date=20240409T122257, start_date=20240409T122309, end_date=20240409T122311
+[2024-04-09T12:23:11.157+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 11 for task get_api_data (The conn_id `fakestore_api` isn't defined; 528)
+[2024-04-09T12:23:11.208+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T12:23:11.262+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class SimpleHttpOperator. (Class `SimpleHttpOperator` is deprecated and will be removed in a future release. Please use `HttpOperator` instead.)
+  result = cls.__new__(cls)
+
+[2024-04-09T12:23:11.369+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T12:23:11.392+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
