@@ -1,0 +1,17 @@
+[2024-04-09T20:04:53.170+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T20:04:53.773+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.get_fruit_data scheduled__2023-04-14T00:00:00+00:00 [queued]>
+[2024-04-09T20:04:53.912+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.get_fruit_data scheduled__2023-04-14T00:00:00+00:00 [queued]>
+[2024-04-09T20:04:53.942+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T20:04:54.292+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): get_fruit_data> on 2023-04-14 00:00:00+00:00
+[2024-04-09T20:04:54.420+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=681) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T20:04:54.466+0000] {standard_task_runner.py:63} INFO - Started process 701 to run task
+[2024-04-09T20:04:54.444+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'get_fruit_data', 'scheduled__2023-04-14T00:00:00+00:00', '--job-id', '529', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmp3phay_m7']
+[2024-04-09T20:04:54.530+0000] {standard_task_runner.py:91} INFO - Job 529: Subtask get_fruit_data
+[2024-04-09T20:05:05.314+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 529 for task get_fruit_data ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 701)
+[2024-04-09T20:05:12.900+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T20:05:13.465+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T20:05:13.481+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

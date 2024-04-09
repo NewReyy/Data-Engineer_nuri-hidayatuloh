@@ -1,0 +1,93 @@
+[2024-04-09T18:37:12.062+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T18:37:12.164+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [queued]>
+[2024-04-09T18:37:12.194+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [queued]>
+[2024-04-09T18:37:12.195+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 3
+[2024-04-09T18:37:12.239+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): insert_fruit_data> on 2023-03-14 00:00:00+00:00
+[2024-04-09T18:37:12.251+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2196) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T18:37:12.270+0000] {standard_task_runner.py:63} INFO - Started process 2206 to run task
+[2024-04-09T18:37:12.282+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'insert_fruit_data', 'scheduled__2023-03-14T00:00:00+00:00', '--job-id', '204', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmpiusfzxr7']
+[2024-04-09T18:37:12.286+0000] {standard_task_runner.py:91} INFO - Job 204: Subtask insert_fruit_data
+[2024-04-09T18:37:12.522+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [running]> on host fd38698150f5
+[2024-04-09T18:37:13.037+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='insert_fruit_data' AIRFLOW_CTX_EXECUTION_DATE='2023-03-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-03-14T00:00:00+00:00'
+[2024-04-09T18:37:13.043+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T18:37:13.065+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T18:37:13.068+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fruit_table_dag.py", line 12, in insert_fruit_data_into_db
+    conn = Variable.get('eskplorasi_postgres')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 143, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable eskplorasi_postgres does not exist'
+[2024-04-09T18:37:13.121+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fruits_dag, task_id=insert_fruit_data, execution_date=20230314T000000, start_date=20240409T183712, end_date=20240409T183713
+[2024-04-09T18:37:13.168+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 204 for task insert_fruit_data ('Variable eskplorasi_postgres does not exist'; 2206)
+[2024-04-09T18:37:13.248+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T18:37:13.359+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T18:37:13.369+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-09T19:58:20.558+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T19:58:21.544+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [queued]>
+[2024-04-09T19:58:21.618+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [queued]>
+[2024-04-09T19:58:21.634+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 2
+[2024-04-09T19:58:22.375+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): insert_fruit_data> on 2023-03-14 00:00:00+00:00
+[2024-04-09T19:58:22.451+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=428) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T19:58:22.515+0000] {standard_task_runner.py:63} INFO - Started process 465 to run task
+[2024-04-09T19:58:22.572+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'insert_fruit_data', 'scheduled__2023-03-14T00:00:00+00:00', '--job-id', '474', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmpk21gjkqd']
+[2024-04-09T19:58:22.874+0000] {standard_task_runner.py:91} INFO - Job 474: Subtask insert_fruit_data
+[2024-04-09T19:58:23.951+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.insert_fruit_data scheduled__2023-03-14T00:00:00+00:00 [running]> on host a89a4f7de6ef
+[2024-04-09T19:58:25.874+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='insert_fruit_data' AIRFLOW_CTX_EXECUTION_DATE='2023-03-14T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-03-14T00:00:00+00:00'
+[2024-04-09T19:58:25.900+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T19:58:26.296+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:58:37.067+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T19:58:37.099+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/fruit_table_dag.py", line 14, in insert_fruit_data_into_db
+    conn = hook.get_conn()
+           ^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/postgres/hooks/postgres.py", line 161, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: could not translate host name "host.docker.internal" to address: Temporary failure in name resolution
+
+[2024-04-09T19:58:47.038+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 474 for task insert_fruit_data ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 465)
+[2024-04-09T19:58:55.460+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T19:58:55.698+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T19:58:55.769+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

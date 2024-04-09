@@ -1,0 +1,21 @@
+[2024-04-09T19:57:16.706+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T19:57:16.944+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data manual__2024-04-09T19:42:16.415292+00:00 [queued]>
+[2024-04-09T19:57:17.053+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.insert_fruit_data manual__2024-04-09T19:42:16.415292+00:00 [queued]>
+[2024-04-09T19:57:17.072+0000] {taskinstance.py:2303} INFO - Starting attempt 2 of 2
+[2024-04-09T19:57:17.620+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): insert_fruit_data> on 2024-04-09 19:42:16.415292+00:00
+[2024-04-09T19:57:17.668+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=420) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T19:57:17.670+0000] {standard_task_runner.py:63} INFO - Started process 432 to run task
+[2024-04-09T19:57:17.690+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'insert_fruit_data', 'manual__2024-04-09T19:42:16.415292+00:00', '--job-id', '468', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmpj6y8bt0d']
+[2024-04-09T19:57:17.832+0000] {standard_task_runner.py:91} INFO - Job 468: Subtask insert_fruit_data
+[2024-04-09T19:57:18.733+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.insert_fruit_data manual__2024-04-09T19:42:16.415292+00:00 [running]> on host a89a4f7de6ef
+[2024-04-09T19:57:20.311+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='insert_fruit_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-09T19:42:16.415292+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-09T19:42:16.415292+00:00'
+[2024-04-09T19:57:20.325+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T19:57:20.532+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:57:21.106+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-04-09T19:57:21.112+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T19:57:21.178+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=fruits_dag, task_id=insert_fruit_data, execution_date=20240409T194216, start_date=20240409T195716, end_date=20240409T195721
+[2024-04-09T19:57:21.343+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-09T19:57:21.416+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T19:57:21.450+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

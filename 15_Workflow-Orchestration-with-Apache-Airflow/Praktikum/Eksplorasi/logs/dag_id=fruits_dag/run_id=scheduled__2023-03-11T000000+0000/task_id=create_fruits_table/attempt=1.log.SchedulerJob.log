@@ -1,0 +1,2 @@
+[2024-04-09T16:45:41.116+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: fruits_dag.create_fruits_table scheduled__2023-03-11T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?
+[2024-04-09T19:43:38.366+0000] {task_context_logger.py:104} ERROR - Executor reports task instance <TaskInstance: fruits_dag.create_fruits_table scheduled__2023-03-11T00:00:00+00:00 [queued]> finished (failed) although the task says it's queued. (Info: None) Was the task killed externally?

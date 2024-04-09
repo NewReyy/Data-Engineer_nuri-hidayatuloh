@@ -1,0 +1,20 @@
+[2024-04-09T20:09:48.704+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T20:09:48.886+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.get_fruit_data scheduled__2023-04-28T00:00:00+00:00 [queued]>
+[2024-04-09T20:09:48.904+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.get_fruit_data scheduled__2023-04-28T00:00:00+00:00 [queued]>
+[2024-04-09T20:09:48.905+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T20:09:49.022+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): get_fruit_data> on 2023-04-28 00:00:00+00:00
+[2024-04-09T20:09:49.145+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'get_fruit_data', 'scheduled__2023-04-28T00:00:00+00:00', '--job-id', '580', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmp8i61r7bd']
+[2024-04-09T20:09:49.191+0000] {standard_task_runner.py:91} INFO - Job 580: Subtask get_fruit_data
+[2024-04-09T20:09:49.235+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=890) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T20:09:49.241+0000] {standard_task_runner.py:63} INFO - Started process 913 to run task
+[2024-04-09T20:09:59.590+0000] {cli_action_loggers.py:137} WARNING - Failed to log action (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2024-04-09T20:10:12.444+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 580 for task get_fruit_data ((psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 913)
+[2024-04-09T20:10:14.789+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T20:10:15.291+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T20:10:15.314+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

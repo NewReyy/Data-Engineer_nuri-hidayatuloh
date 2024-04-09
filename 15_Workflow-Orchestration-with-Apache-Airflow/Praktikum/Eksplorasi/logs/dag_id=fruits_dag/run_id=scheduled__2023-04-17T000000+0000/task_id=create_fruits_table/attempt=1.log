@@ -1,0 +1,241 @@
+[2024-04-09T19:01:27.861+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T19:01:28.028+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T19:01:28.118+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T19:01:28.135+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T19:01:28.310+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): create_fruits_table> on 2023-04-17 00:00:00+00:00
+[2024-04-09T19:01:28.359+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'create_fruits_table', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '309', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmp35zujyfg']
+[2024-04-09T19:01:28.364+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=2795) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T19:01:28.386+0000] {standard_task_runner.py:63} INFO - Started process 2804 to run task
+[2024-04-09T19:01:28.385+0000] {standard_task_runner.py:91} INFO - Job 309: Subtask create_fruits_table
+[2024-04-09T19:01:28.558+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [running]> on host fd38698150f5
+[2024-04-09T19:01:29.585+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='create_fruits_table' AIRFLOW_CTX_EXECUTION_DATE='2023-04-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-17T00:00:00+00:00'
+[2024-04-09T19:01:29.599+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T19:01:29.623+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL,
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    
+[2024-04-09T19:01:29.691+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:01:29.732+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:01:29.767+0000] {sql.py:457} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL,
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    , parameters: None
+[2024-04-09T19:01:29.783+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T19:01:29.785+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near ")"
+LINE 10:         );
+                 ^
+
+[2024-04-09T19:01:29.823+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fruits_dag, task_id=create_fruits_table, execution_date=20230417T000000, start_date=20240409T190128, end_date=20240409T190129
+[2024-04-09T19:01:29.916+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 309 for task create_fruits_table (syntax error at or near ")"
+LINE 10:         );
+                 ^
+; 2804)
+[2024-04-09T19:01:30.085+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T19:01:30.561+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-09T19:01:30.724+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T19:01:30.735+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-09T19:36:09.866+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T19:36:10.868+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T19:36:11.380+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T19:36:11.472+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T19:36:11.884+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): create_fruits_table> on 2023-04-17 00:00:00+00:00
+[2024-04-09T19:36:11.982+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'create_fruits_table', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '409', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmpzphhgkm3']
+[2024-04-09T19:36:12.029+0000] {standard_task_runner.py:91} INFO - Job 409: Subtask create_fruits_table
+[2024-04-09T19:36:11.958+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=3532) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T19:36:12.166+0000] {standard_task_runner.py:63} INFO - Started process 3558 to run task
+[2024-04-09T19:36:13.489+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [running]> on host fd38698150f5
+[2024-04-09T19:36:16.502+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='create_fruits_table' AIRFLOW_CTX_EXECUTION_DATE='2023-04-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-17T00:00:00+00:00'
+[2024-04-09T19:36:16.580+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T19:36:16.583+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL,
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    
+[2024-04-09T19:36:16.900+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:36:17.038+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T19:36:17.158+0000] {sql.py:457} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL,
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    , parameters: None
+[2024-04-09T19:36:17.191+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T19:36:17.246+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/operators/sql.py", line 282, in execute
+    output = hook.run(
+             ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 404, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/common/sql/hooks/sql.py", line 462, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near ")"
+LINE 10:         );
+                 ^
+
+[2024-04-09T19:36:17.378+0000] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fruits_dag, task_id=create_fruits_table, execution_date=20230417T000000, start_date=20240409T193610, end_date=20240409T193617
+[2024-04-09T19:36:18.108+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 409 for task create_fruits_table (syntax error at or near ")"
+LINE 10:         );
+                 ^
+; 3558)
+[2024-04-09T19:36:18.526+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-09T19:36:18.628+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-09T19:36:18.968+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T19:36:19.050+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2024-04-09T20:06:43.949+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-09T20:06:44.688+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T20:06:44.935+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [queued]>
+[2024-04-09T20:06:44.939+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-09T20:06:45.934+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): create_fruits_table> on 2023-04-17 00:00:00+00:00
+[2024-04-09T20:06:46.098+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=750) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-04-09T20:06:46.111+0000] {standard_task_runner.py:63} INFO - Started process 784 to run task
+[2024-04-09T20:06:46.165+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'fruits_dag', 'create_fruits_table', 'scheduled__2023-04-17T00:00:00+00:00', '--job-id', '548', '--raw', '--subdir', 'DAGS_FOLDER/fruit_table_dag.py', '--cfg-path', '/tmp/tmpp_c_e9ea']
+[2024-04-09T20:06:46.174+0000] {standard_task_runner.py:91} INFO - Job 548: Subtask create_fruits_table
+[2024-04-09T20:06:53.652+0000] {task_command.py:426} INFO - Running <TaskInstance: fruits_dag.create_fruits_table scheduled__2023-04-17T00:00:00+00:00 [running]> on host a89a4f7de6ef
+[2024-04-09T20:07:15.172+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fruits_dag' AIRFLOW_CTX_TASK_ID='create_fruits_table' AIRFLOW_CTX_EXECUTION_DATE='2023-04-17T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-04-17T00:00:00+00:00'
+[2024-04-09T20:07:15.197+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-09T20:07:15.202+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    
+[2024-04-09T20:07:15.351+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T20:07:15.564+0000] {base.py:84} INFO - Using connection ID 'eksplorasi_postgres' for task execution.
+[2024-04-09T20:07:16.051+0000] {sql.py:457} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS fruits (
+            id SERIAL PRIMARY KEY,
+            name VARCHAR(50) NOT NULL,
+            calories DECIMAL NOT NULL,
+            fat DECIMAL NOT NULL,
+            sugar DECIMAL NOT NULL,
+            carbohydrates DECIMAL NOT NULL,
+            protein DECIMAL NOT NULL
+        );
+
+        -- Perbaikan: Menambahkan sequence fruits_id_seq
+        CREATE SEQUENCE IF NOT EXISTS fruits_id_seq
+            START WITH 1
+            INCREMENT BY 1
+            NO MINVALUE
+            NO MAXVALUE
+            CACHE 1;
+    , parameters: None
+[2024-04-09T20:07:16.134+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/providers/common/sql/hooks/sql.py:407: AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+  result = self._make_common_data_structure(handler(cur))
+
+[2024-04-09T20:07:16.146+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-09T20:07:16.306+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=fruits_dag, task_id=create_fruits_table, execution_date=20230417T000000, start_date=20240409T200644, end_date=20240409T200716
+[2024-04-09T20:07:16.913+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-09T20:07:18.066+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/models/baseoperator.py:1296: AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+  result = cls.__new__(cls)
+
+[2024-04-09T20:07:18.383+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-09T20:07:18.406+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
