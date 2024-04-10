@@ -25,7 +25,7 @@ dag = DAG(
     tags=['example'],
 )
 
-OUTPUT_DIR = os.path.join('15_Workflow-Orchestration-with-Apache-Airflow', 'Praktikum', 'Prioritas-2')
+OUTPUT_DIR = os.path.join('16_Workflow-Orchestration-with-Apache-Airflow', 'Praktikum', 'Prioritas-2')
 
 def get_api_data(**kwargs):
     try:
