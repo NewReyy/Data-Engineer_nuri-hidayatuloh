@@ -1,0 +1,248 @@
+[2024-04-14T12:59:13.100+0000] {processor.py:161} INFO - Started process (PID=1129) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:13.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T12:59:13.113+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:13.112+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:13.253+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:13.956+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:13.952+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:books_data_extraction_dag
+[2024-04-14T12:59:14.033+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:14.033+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:books_data_extraction_dag
+[2024-04-14T12:59:14.060+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:14.060+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:books_data_extraction_dag
+[2024-04-14T12:59:14.062+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:14.061+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:59:14.148+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:14.148+0000] {dag.py:3118} INFO - Creating ORM DAG for books_data_extraction_dag
+[2024-04-14T12:59:14.220+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:14.219+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T12:59:14.303+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 1.236 seconds
+[2024-04-14T12:59:47.531+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:47.543+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T12:59:47.546+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:47.545+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:47.611+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T12:59:47.672+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:47.672+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T12:59:47.740+0000] {logging_mixin.py:188} INFO - [2024-04-14T12:59:47.740+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T12:59:47.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.280 seconds
+[2024-04-14T13:00:17.887+0000] {processor.py:161} INFO - Started process (PID=1253) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:17.889+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:00:17.891+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:17.890+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:17.915+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:17.945+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:17.945+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:00:17.981+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:17.981+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:00:18.011+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.135 seconds
+[2024-04-14T13:00:48.150+0000] {processor.py:161} INFO - Started process (PID=1312) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:48.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:00:48.153+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:48.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:48.180+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:00:48.215+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:48.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:00:48.266+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:00:48.265+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:00:48.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.172 seconds
+[2024-04-14T13:01:19.700+0000] {processor.py:161} INFO - Started process (PID=1371) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:19.705+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:01:19.715+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:19.714+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:19.789+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:19.890+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:19.886+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:01:19.968+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:19.966+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:01:20.021+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.343 seconds
+[2024-04-14T13:01:50.311+0000] {processor.py:161} INFO - Started process (PID=1429) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:50.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:01:50.327+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:50.319+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:50.478+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:01:50.565+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:50.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:01:50.698+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:01:50.697+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:01:50.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.479 seconds
+[2024-04-14T13:02:17.167+0000] {processor.py:161} INFO - Started process (PID=1478) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:17.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:02:17.177+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:17.176+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:17.252+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:17.247+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/books_data_extraction.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/books_data_extraction.py", line 12
+    'email_on_failure': False,SS
+                               ^
+SyntaxError: ':' expected after dictionary key
+[2024-04-14T13:02:17.257+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:17.457+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.321 seconds
+[2024-04-14T13:02:47.757+0000] {processor.py:161} INFO - Started process (PID=1537) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:47.760+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:02:47.762+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:47.762+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:47.816+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:47.813+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/books_data_extraction.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/books_data_extraction.py", line 12
+    'email_on_failure': False,SS
+                               ^
+SyntaxError: ':' expected after dictionary key
+[2024-04-14T13:02:47.818+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:47.883+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.144 seconds
+[2024-04-14T13:02:56.167+0000] {processor.py:161} INFO - Started process (PID=1558) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:56.170+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:02:56.181+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:56.180+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:56.362+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:02:56.496+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:56.495+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:02:56.664+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:02:56.663+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:02:56.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.603 seconds
+[2024-04-14T13:03:27.695+0000] {processor.py:161} INFO - Started process (PID=1617) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:27.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:03:27.733+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:27.733+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:28.092+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:28.259+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:28.259+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:03:28.355+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:28.355+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:03:28.527+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.862 seconds
+[2024-04-14T13:03:59.022+0000] {processor.py:161} INFO - Started process (PID=1677) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:59.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:03:59.026+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:59.025+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:59.049+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:03:59.081+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:59.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:03:59.133+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:03:59.132+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:03:59.169+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.163 seconds
+[2024-04-14T13:04:29.837+0000] {processor.py:161} INFO - Started process (PID=1737) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:04:29.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:04:29.840+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:04:29.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:04:29.883+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:04:29.916+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:04:29.916+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:04:29.968+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:04:29.967+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:04:30.022+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.199 seconds
+[2024-04-14T13:05:00.209+0000] {processor.py:161} INFO - Started process (PID=1795) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:00.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:05:00.215+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:00.214+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:00.250+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:00.335+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:00.334+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:05:00.428+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:00.428+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:05:00.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.317 seconds
+[2024-04-14T13:05:30.963+0000] {processor.py:161} INFO - Started process (PID=1853) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:30.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:05:30.978+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:30.977+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:31.049+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:05:31.186+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:31.179+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:05:31.337+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:05:31.336+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:05:31.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.553 seconds
+[2024-04-14T13:06:02.006+0000] {processor.py:161} INFO - Started process (PID=1912) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:02.009+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:06:02.010+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:02.010+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:02.036+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:02.064+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:02.064+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:06:02.108+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:02.107+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:06:02.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.148 seconds
+[2024-04-14T13:06:32.919+0000] {processor.py:161} INFO - Started process (PID=1971) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:32.921+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:06:32.925+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:32.924+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:32.952+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:06:32.982+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:32.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:06:33.026+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:06:33.025+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:06:33.058+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.149 seconds
+[2024-04-14T13:07:03.265+0000] {processor.py:161} INFO - Started process (PID=2030) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:03.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:07:03.267+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:03.267+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:03.290+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:03.318+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:03.317+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:07:03.354+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:03.353+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:07:03.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.129 seconds
+[2024-04-14T13:07:33.727+0000] {processor.py:161} INFO - Started process (PID=2090) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:33.729+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:07:33.731+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:33.730+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:33.757+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:07:33.788+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:33.787+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:07:33.839+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:07:33.839+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:07:33.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.160 seconds
+[2024-04-14T13:08:04.302+0000] {processor.py:161} INFO - Started process (PID=2149) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:04.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:08:04.306+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:04.306+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:04.367+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:04.835+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:04.834+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:08:04.898+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:04.895+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:08:04.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.698 seconds
+[2024-04-14T13:08:05.847+0000] {processor.py:161} INFO - Started process (PID=2151) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:05.849+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:08:05.851+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:05.851+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:05.924+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:05.969+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:05.969+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:08:06.050+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:06.050+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:08:06.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.286 seconds
+[2024-04-14T13:08:07.096+0000] {processor.py:161} INFO - Started process (PID=2152) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:07.099+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:08:07.102+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:07.101+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:07.158+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:07.179+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:07.178+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:08:07.237+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:07.236+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:08:07.309+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.232 seconds
+[2024-04-14T13:08:10.693+0000] {processor.py:161} INFO - Started process (PID=2159) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:10.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:08:10.706+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:10.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:10.850+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:10.936+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:10.935+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:08:11.031+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:11.030+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:08:11.116+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.445 seconds
+[2024-04-14T13:08:42.157+0000] {processor.py:161} INFO - Started process (PID=2218) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:42.160+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:08:42.162+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:42.161+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:42.236+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:08:42.308+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:42.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:08:42.507+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:08:42.506+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:08:42.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.585 seconds
+[2024-04-14T13:09:12.958+0000] {processor.py:161} INFO - Started process (PID=2277) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:12.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:09:12.962+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:12.962+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:12.982+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:13.007+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:13.006+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:09:13.039+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:13.039+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:09:13.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.123 seconds
+[2024-04-14T13:09:43.731+0000] {processor.py:161} INFO - Started process (PID=2336) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:43.733+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:09:43.736+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:43.735+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:43.766+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:09:43.802+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:43.802+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:09:43.854+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:09:43.854+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:09:43.890+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.170 seconds
+[2024-04-14T13:10:14.385+0000] {processor.py:161} INFO - Started process (PID=2395) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:14.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:10:14.389+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:14.388+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:14.429+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:14.531+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:14.530+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:10:14.643+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:14.642+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:10:14.805+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.438 seconds
+[2024-04-14T13:10:45.543+0000] {processor.py:161} INFO - Started process (PID=2454) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:45.545+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:10:45.546+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:45.546+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:45.566+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:10:45.590+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:45.590+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:10:45.624+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:10:45.623+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:10:45.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.123 seconds
+[2024-04-14T13:11:15.999+0000] {processor.py:161} INFO - Started process (PID=2514) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:16.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:11:16.003+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:16.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:16.043+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:16.095+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:16.095+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:11:16.173+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:16.172+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:11:16.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.258 seconds
+[2024-04-14T13:11:46.673+0000] {processor.py:161} INFO - Started process (PID=2572) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:46.675+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:11:46.676+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:46.676+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:46.700+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:11:46.729+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:46.728+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:11:46.769+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:11:46.768+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:11:46.801+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.139 seconds
+[2024-04-14T13:12:16.999+0000] {processor.py:161} INFO - Started process (PID=2631) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:17.001+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:12:17.003+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:17.002+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:17.024+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:17.056+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:17.055+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:12:17.096+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:17.095+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:12:17.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.144 seconds
+[2024-04-14T13:12:47.235+0000] {processor.py:161} INFO - Started process (PID=2690) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:47.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:12:47.239+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:47.237+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:47.278+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:12:47.312+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:47.312+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:12:47.354+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:12:47.353+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:12:47.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.160 seconds
+[2024-04-14T13:13:18.090+0000] {processor.py:161} INFO - Started process (PID=2749) to work on /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:13:18.092+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/books_data_extraction.py for tasks to queue
+[2024-04-14T13:13:18.094+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:13:18.094+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:13:18.189+0000] {processor.py:840} INFO - DAG(s) 'books_data_extraction_dag' retrieved from /opt/airflow/dags/books_data_extraction.py
+[2024-04-14T13:13:18.290+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:13:18.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-14T13:13:18.438+0000] {logging_mixin.py:188} INFO - [2024-04-14T13:13:18.437+0000] {dag.py:3954} INFO - Setting next_dagrun for books_data_extraction_dag to 2024-04-15 09:00:00+00:00, run_after=2024-04-22 09:00:00+00:00
+[2024-04-14T13:13:18.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/books_data_extraction.py took 0.424 seconds
