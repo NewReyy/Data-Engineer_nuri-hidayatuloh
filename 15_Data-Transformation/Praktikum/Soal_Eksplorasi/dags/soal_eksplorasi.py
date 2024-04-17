@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 from matplotlib import pyplot as plt
 import os
-import zipfile
+import kaggle
 
 default_args = {
     'owner': 'nuri',
@@ -21,19 +21,18 @@ dag = DAG(
     catchup=False,
 )
 
-def extract_data():
-    os.system('kaggle datasets download -d ayushparwal2026/shopping-dataset -p D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform')
-    with zipfile.ZipFile('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/shopping-dataset.zip', 'r') as zip_ref:
-        zip_ref.extractall('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform')
+# Fungsi untuk mengunduh dataset dari Kaggle
+def download_dataset():
+    kaggle.api.dataset_download_files("ayushparwal2026/shopping-dataset", path="C:/data", unzip=True)
 
 extract_data_task = PythonOperator(
     task_id='extract_data',
-    python_callable=extract_data,
+    python_callable=download_dataset,
     dag=dag,
 )
 
 def transform_data():
-    df = pd.read_csv('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/Shopping_data.csv')
+    df = pd.read_csv('C:/data/Shopping_data.csv')
     
     # Handling missing values
     df['Genre'].fillna('Unknown', inplace=True)
@@ -45,7 +44,7 @@ def transform_data():
     df['Annual Income (k$)'] = (df['Annual Income (k$)'] - df['Annual Income (k$)'].min()) / (df['Annual Income (k$)'].max() - df['Annual Income (k$)'].min())
     
     # Menyimpan DataFrame yang sudah diubah
-    df.to_csv('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/transformed_shopping_data.csv', index=False)
+    df.to_csv('/home/newrey/airflow/transformed_shopping_data.csv', index=False)
 
 transform_data_task = PythonOperator(
     task_id='transform_data',
@@ -54,8 +53,8 @@ transform_data_task = PythonOperator(
 )
 
 def export_to_excel():
-    df = pd.read_csv('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/transformed_shopping_data.csv')
-    df.to_excel('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/shopping_analysis_result.xlsx', index=False)
+    df = pd.read_csv('/home/newrey/airflow/transformed_shopping_data.csv')
+    df.to_excel('/home/newrey/airflow/shopping_analysis_result.xlsx', index=False)
 
 export_to_excel_task = PythonOperator(
     task_id='export_to_excel',
@@ -64,7 +63,7 @@ export_to_excel_task = PythonOperator(
 )
 
 def visualize_data():
-    df = pd.read_csv('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/transformed_shopping_data.csv')
+    df = pd.read_csv('/home/newrey/airflow/transformed_shopping_data.csv')
     
     # Visualisasi data
     plt.figure(figsize=(10, 6))
@@ -73,7 +72,7 @@ def visualize_data():
     plt.xlabel('Annual Income (k$)')
     plt.ylabel('Spending Score (1-100)')
     plt.colorbar(label='Gender (Male)')
-    plt.savefig('D:/Nuri/MSIB-ALTERRA/Data-Engineer_nuri-hidayatuloh/15_Data-Transformation/Praktikum/Eksplorasi_Transform/visualization.png')
+    plt.savefig('/home/newrey/airflow/visualization.png')
 
 visualize_data_task = PythonOperator(
     task_id='visualize_data',
