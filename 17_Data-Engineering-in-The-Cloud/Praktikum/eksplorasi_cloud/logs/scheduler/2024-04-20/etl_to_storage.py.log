@@ -1,0 +1,362 @@
+[2024-04-20T12:16:44.185+0700] {processor.py:161} INFO - Started process (PID=3277) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:16:44.188+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:16:44.195+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:16:44.194+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:16:44.235+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:16:44.230+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 5, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-04-20T12:16:44.238+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:16:44.341+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.195 seconds
+[2024-04-20T12:19:54.226+0700] {processor.py:161} INFO - Started process (PID=5985) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:19:54.308+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:19:54.372+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:19:54.371+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:19:54.392+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:19:54.380+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 5, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-04-20T12:19:54.393+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:19:54.591+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.400 seconds
+[2024-04-20T12:20:54.932+0700] {processor.py:161} INFO - Started process (PID=6405) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:20:54.934+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:20:54.938+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:20:54.937+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:20:54.944+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:20:54.943+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 5, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-04-20T12:20:54.945+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:20:54.983+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.064 seconds
+[2024-04-20T12:21:38.213+0700] {processor.py:161} INFO - Started process (PID=6672) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:21:38.217+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:21:38.220+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:21:38.220+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:21:38.227+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:21:38.225+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 5, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-04-20T12:21:38.228+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:21:38.267+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.067 seconds
+[2024-04-20T12:22:15.333+0700] {processor.py:161} INFO - Started process (PID=7028) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:22:15.337+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:22:15.341+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:22:15.340+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:22:15.347+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:22:15.345+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 5, in <module>
+    import firebase_admin
+ModuleNotFoundError: No module named 'firebase_admin'
+[2024-04-20T12:22:15.348+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:22:15.391+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.070 seconds
+[2024-04-20T12:23:04.719+0700] {processor.py:161} INFO - Started process (PID=7639) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:23:04.730+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:23:04.737+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:23:04.736+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:23:07.312+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:23:07.309+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 8, in <module>
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2024-04-20T12:23:07.322+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:23:07.438+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 2.776 seconds
+[2024-04-20T12:24:07.712+0700] {processor.py:161} INFO - Started process (PID=8450) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:07.718+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:24:07.722+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:07.721+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:09.213+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:09.208+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 8, in <module>
+    import pyarrow as pa
+ModuleNotFoundError: No module named 'pyarrow'
+[2024-04-20T12:24:09.214+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:09.266+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.575 seconds
+[2024-04-20T12:24:49.626+0700] {processor.py:161} INFO - Started process (PID=8768) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:49.629+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:24:49.633+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:49.632+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:50.733+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:50.731+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 11, in <module>
+    cred = credentials.Certificate("accountKey.json")
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/credentials.py", line 83, in __init__
+    with open(cert) as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'accountKey.json'
+[2024-04-20T12:24:50.734+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:24:50.758+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.154 seconds
+[2024-04-20T12:25:32.491+0700] {processor.py:161} INFO - Started process (PID=9283) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:25:32.496+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:25:32.499+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:25:32.498+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:25:33.718+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:25:33.716+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 11, in <module>
+    cred = credentials.Certificate("accountKey.json")
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/credentials.py", line 83, in __init__
+    with open(cert) as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'accountKey.json'
+[2024-04-20T12:25:33.719+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:25:33.744+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.276 seconds
+[2024-04-20T12:26:19.827+0700] {processor.py:161} INFO - Started process (PID=9874) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:26:19.848+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:26:19.855+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:19.853+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:26:21.610+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:26:21.828+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.826+0700] {override.py:1829} INFO - Created Permission View: can read on DAG:fake_store_data_pipeline
+[2024-04-20T12:26:21.871+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.870+0700] {override.py:1829} INFO - Created Permission View: can edit on DAG:fake_store_data_pipeline
+[2024-04-20T12:26:21.891+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.890+0700] {override.py:1829} INFO - Created Permission View: can delete on DAG:fake_store_data_pipeline
+[2024-04-20T12:26:21.892+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.891+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:26:21.916+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.915+0700] {dag.py:3118} INFO - Creating ORM DAG for fake_store_data_pipeline
+[2024-04-20T12:26:21.938+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:21.938+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-19 00:00:00+00:00, run_after=2024-04-20 00:00:00+00:00
+[2024-04-20T12:26:21.987+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 2.224 seconds
+[2024-04-20T12:27:00.398+0700] {processor.py:161} INFO - Started process (PID=10261) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:00.400+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:27:00.403+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:00.403+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:01.611+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:01.632+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:01.631+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:27:01.667+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:01.666+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-19 00:00:00+00:00, run_after=2024-04-20 00:00:00+00:00
+[2024-04-20T12:27:01.707+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.327 seconds
+[2024-04-20T12:27:44.284+0700] {processor.py:161} INFO - Started process (PID=10682) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:44.290+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:27:44.295+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:44.293+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:45.795+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:45.791+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 11, in <module>
+    cred = credentials.Certificate("home/newrey/airflow/dags/accountKey.json")
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/credentials.py", line 83, in __init__
+    with open(cert) as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'home/newrey/airflow/dags/accountKey.json'
+[2024-04-20T12:27:45.797+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:27:45.828+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.594 seconds
+[2024-04-20T12:28:40.015+0700] {processor.py:161} INFO - Started process (PID=11600) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:28:40.019+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:28:40.022+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:28:40.021+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:28:41.441+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:28:41.439+0700] {dagbag.py:350} ERROR - Failed to import: /home/newrey/airflow/dags/etl_to_storage.py
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 11, in <module>
+    cred = credentials.Certificate("home/newrey/airflow/dags/accountKey.json")
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/credentials.py", line 83, in __init__
+    with open(cert) as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'home/newrey/airflow/dags/accountKey.json'
+[2024-04-20T12:28:41.453+0700] {processor.py:842} WARNING - No viable dags retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:28:41.534+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.540 seconds
+[2024-04-20T12:29:30.384+0700] {processor.py:161} INFO - Started process (PID=12278) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:29:30.388+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:29:30.391+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:30.390+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:29:32.120+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:29:32.268+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:32.267+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:29:32.313+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:32.312+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-19 00:00:00+00:00, run_after=2024-04-20 00:00:00+00:00
+[2024-04-20T12:29:32.385+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 2.032 seconds
+[2024-04-20T12:30:58.726+0700] {processor.py:161} INFO - Started process (PID=13654) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:30:58.730+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:30:58.732+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:30:58.731+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:31:00.026+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:31:00.055+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:00.054+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:31:00.093+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:00.093+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:31:00.136+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.431 seconds
+[2024-04-20T12:31:50.305+0700] {processor.py:161} INFO - Started process (PID=14389) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:31:50.308+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:31:50.310+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:50.310+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:31:51.851+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:31:51.872+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:51.871+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:31:51.906+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:51.905+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:31:51.947+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.661 seconds
+[2024-04-20T12:32:33.837+0700] {processor.py:161} INFO - Started process (PID=14726) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:32:33.841+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:32:33.843+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:33.842+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:32:35.066+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:32:35.089+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:35.087+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:32:35.134+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:35.134+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:32:35.183+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.366 seconds
+[2024-04-20T12:33:13.001+0700] {processor.py:161} INFO - Started process (PID=15032) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:13.006+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:33:13.007+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:13.007+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:14.317+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:14.412+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:14.410+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:33:14.592+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:14.591+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:33:14.700+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.713 seconds
+[2024-04-20T12:33:51.084+0700] {processor.py:161} INFO - Started process (PID=15338) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:51.088+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:33:51.090+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:51.089+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:52.424+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:33:52.447+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:52.445+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:33:52.479+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:52.478+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:33:52.524+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.461 seconds
+[2024-04-20T12:34:42.811+0700] {processor.py:161} INFO - Started process (PID=16013) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:34:42.815+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:34:42.817+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:42.816+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:34:44.056+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:34:44.076+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:44.075+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:34:44.113+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:44.113+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:34:44.157+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.368 seconds
+[2024-04-20T12:35:32.412+0700] {processor.py:161} INFO - Started process (PID=16443) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:35:32.423+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:35:32.426+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:32.425+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:35:34.480+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:35:34.593+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:34.591+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:35:34.678+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:34.676+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:35:34.777+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 2.404 seconds
+[2024-04-20T12:36:14.136+0700] {processor.py:161} INFO - Started process (PID=16756) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:14.142+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:36:14.144+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:14.143+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:15.567+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:15.595+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:15.594+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:36:15.638+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:15.637+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:36:15.683+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.567 seconds
+[2024-04-20T12:36:53.738+0700] {processor.py:161} INFO - Started process (PID=17193) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:53.742+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:36:53.744+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:53.743+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:54.984+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:36:55.023+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:55.022+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:36:55.057+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:55.057+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:36:55.097+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.383 seconds
+[2024-04-20T12:37:31.418+0700] {processor.py:161} INFO - Started process (PID=17488) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:37:31.422+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:37:31.424+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:31.424+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:37:32.666+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:37:32.698+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:32.696+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:37:32.763+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:32.762+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:37:32.803+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.405 seconds
+[2024-04-20T12:38:10.434+0700] {processor.py:161} INFO - Started process (PID=17859) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:10.438+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:38:10.441+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:10.440+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:11.589+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:11.610+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:11.609+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:38:11.641+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:11.641+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:38:11.706+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.308 seconds
+[2024-04-20T12:38:50.502+0700] {processor.py:161} INFO - Started process (PID=18231) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:50.504+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:38:50.507+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:50.506+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:51.864+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:38:51.892+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:51.891+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:38:51.983+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:51.972+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:38:52.174+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.707 seconds
+[2024-04-20T12:39:31.064+0700] {processor.py:161} INFO - Started process (PID=18484) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:39:31.069+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:39:31.071+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:31.070+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:39:32.298+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:39:32.323+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:32.322+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:39:32.372+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:32.371+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:39:32.414+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.378 seconds
+[2024-04-20T12:40:07.722+0700] {processor.py:161} INFO - Started process (PID=18779) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:07.723+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:40:07.725+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:07.724+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:08.569+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:08.591+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:08.590+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:40:08.622+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:08.622+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:40:08.662+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.951 seconds
+[2024-04-20T12:40:40.051+0700] {processor.py:161} INFO - Started process (PID=18993) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:40.052+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:40:40.054+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:40.053+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:40.807+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:40:40.830+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:40.829+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:40:40.859+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:40.859+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:40:40.888+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.856 seconds
+[2024-04-20T12:41:42.518+0700] {processor.py:161} INFO - Started process (PID=19448) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:41:42.521+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:41:42.523+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:42.522+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:41:43.245+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:41:43.259+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:43.257+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:41:43.276+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:43.276+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:41:43.299+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.799 seconds
+[2024-04-20T12:42:40.361+0700] {processor.py:161} INFO - Started process (PID=19945) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:42:40.364+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:42:40.366+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:40.366+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:42:41.211+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:42:41.238+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:41.236+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:42:41.263+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:41.262+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:42:41.298+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.959 seconds
+[2024-04-20T12:43:13.913+0700] {processor.py:161} INFO - Started process (PID=20221) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:13.915+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:43:13.916+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:13.915+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:14.764+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:14.792+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:14.791+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:43:14.828+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:14.827+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:43:14.894+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.993 seconds
+[2024-04-20T12:43:46.220+0700] {processor.py:161} INFO - Started process (PID=20441) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:46.222+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:43:46.223+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:46.223+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:47.078+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:43:47.098+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:47.097+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:43:47.127+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:47.127+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:43:47.152+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.954 seconds
+[2024-04-20T12:44:42.872+0700] {processor.py:161} INFO - Started process (PID=20864) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:44:42.875+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:44:42.878+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:42.876+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:44:43.780+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:44:43.804+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:43.803+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:44:43.827+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:43.827+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:44:43.866+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.015 seconds
+[2024-04-20T12:45:43.301+0700] {processor.py:161} INFO - Started process (PID=21310) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:45:43.303+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:45:43.305+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:43.304+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:45:44.273+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:45:44.291+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:44.289+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:45:44.328+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:44.327+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:45:44.389+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 1.113 seconds
+[2024-04-20T12:46:43.786+0700] {processor.py:161} INFO - Started process (PID=21764) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:46:43.790+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:46:43.791+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:43.790+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:46:44.538+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:46:44.555+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:44.554+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:46:44.589+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:44.589+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:46:44.624+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.852 seconds
+[2024-04-20T12:47:15.869+0700] {processor.py:161} INFO - Started process (PID=22096) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:47:15.871+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:47:15.873+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:15.872+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:47:16.711+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:47:16.734+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:16.734+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:47:16.759+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:16.758+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:47:16.803+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.953 seconds
+[2024-04-20T12:48:18.251+0700] {processor.py:161} INFO - Started process (PID=22553) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:18.255+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:48:18.257+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:18.256+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:19.123+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:19.135+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:19.134+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:48:19.158+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:19.158+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:48:19.199+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.967 seconds
+[2024-04-20T12:48:52.155+0700] {processor.py:161} INFO - Started process (PID=22846) to work on /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:52.159+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/etl_to_storage.py for tasks to queue
+[2024-04-20T12:48:52.161+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:52.160+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:52.919+0700] {processor.py:840} INFO - DAG(s) 'fake_store_data_pipeline' retrieved from /home/newrey/airflow/dags/etl_to_storage.py
+[2024-04-20T12:48:52.931+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:52.930+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:48:52.970+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:52.969+0700] {dag.py:3954} INFO - Setting next_dagrun for fake_store_data_pipeline to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:48:53.003+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/etl_to_storage.py took 0.866 seconds

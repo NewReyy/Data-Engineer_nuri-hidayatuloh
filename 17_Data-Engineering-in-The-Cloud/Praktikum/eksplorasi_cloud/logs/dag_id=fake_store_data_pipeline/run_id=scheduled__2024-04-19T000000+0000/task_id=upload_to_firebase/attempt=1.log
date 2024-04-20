@@ -1,0 +1,36 @@
+[2024-04-20T12:30:29.900+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-20T12:30:29.958+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fake_store_data_pipeline.upload_to_firebase scheduled__2024-04-19T00:00:00+00:00 [queued]>
+[2024-04-20T12:30:29.973+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fake_store_data_pipeline.upload_to_firebase scheduled__2024-04-19T00:00:00+00:00 [queued]>
+[2024-04-20T12:30:29.973+0700] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-20T12:30:30.001+0700] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): upload_to_firebase> on 2024-04-19 00:00:00+00:00
+[2024-04-20T12:30:30.009+0700] {standard_task_runner.py:63} INFO - Started process 13365 to run task
+[2024-04-20T12:30:30.014+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'fake_store_data_pipeline', 'upload_to_firebase', 'scheduled__2024-04-19T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/etl_to_storage.py', '--cfg-path', '/tmp/tmp9vjv437s']
+[2024-04-20T12:30:30.015+0700] {standard_task_runner.py:91} INFO - Job 17: Subtask upload_to_firebase
+[2024-04-20T12:30:30.092+0700] {task_command.py:426} INFO - Running <TaskInstance: fake_store_data_pipeline.upload_to_firebase scheduled__2024-04-19T00:00:00+00:00 [running]> on host LAPTOP-984VLCTV.
+[2024-04-20T12:30:30.211+0700] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nuri' AIRFLOW_CTX_DAG_ID='fake_store_data_pipeline' AIRFLOW_CTX_TASK_ID='upload_to_firebase' AIRFLOW_CTX_EXECUTION_DATE='2024-04-19T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-19T00:00:00+00:00'
+[2024-04-20T12:30:30.212+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-20T12:30:30.214+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-20T12:30:30.215+0700] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/newrey/airflow/dags/etl_to_storage.py", line 68, in upload_to_firebase
+    blob = storage.bucket().blob('transformed_data.parquet')
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/storage.py", line 52, in bucket
+    return client.bucket(name)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/storage.py", line 74, in bucket
+    raise ValueError(
+ValueError: Storage bucket name not specified. Specify the bucket name via the "storageBucket" option when initializing the App, or specify the bucket name explicitly when calling the storage.bucket() function.
+[2024-04-20T12:30:30.225+0700] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=fake_store_data_pipeline, task_id=upload_to_firebase, execution_date=20240419T000000, start_date=20240420T053029, end_date=20240420T053030
+[2024-04-20T12:30:30.245+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 17 for task upload_to_firebase (Storage bucket name not specified. Specify the bucket name via the "storageBucket" option when initializing the App, or specify the bucket name explicitly when calling the storage.bucket() function.; 13365)
+[2024-04-20T12:30:30.268+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-20T12:30:30.289+0700] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-20T12:30:30.290+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

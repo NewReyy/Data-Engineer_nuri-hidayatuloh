@@ -1,0 +1,312 @@
+[2024-04-20T12:16:56.035+0700] {processor.py:161} INFO - Started process (PID=3511) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:16:56.042+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:16:56.049+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:16:56.048+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:16:58.814+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:16:58.843+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:16:58.857+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:16:58.856+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:16:58.899+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:16:58.898+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:16:58.951+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.960 seconds
+[2024-04-20T12:19:55.821+0700] {processor.py:161} INFO - Started process (PID=5993) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:19:55.825+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:19:55.829+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:19:55.827+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:19:57.933+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:19:57.951+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:19:58.188+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:19:58.187+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:19:58.253+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:19:58.252+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:19:58.312+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.507 seconds
+[2024-04-20T12:20:55.552+0700] {processor.py:161} INFO - Started process (PID=6415) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:20:55.555+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:20:55.559+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:20:55.558+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:20:57.439+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:20:57.454+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:20:57.476+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:20:57.475+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:20:57.507+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:20:57.507+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:20:57.560+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.019 seconds
+[2024-04-20T12:21:39.391+0700] {processor.py:161} INFO - Started process (PID=6677) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:21:39.394+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:21:39.397+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:21:39.397+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:21:40.938+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:21:40.964+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:21:41.015+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:21:41.014+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:21:41.088+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:21:41.087+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:21:41.139+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.761 seconds
+[2024-04-20T12:22:16.509+0700] {processor.py:161} INFO - Started process (PID=7033) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:22:16.514+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:22:16.518+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:22:16.517+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:22:17.873+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:22:17.888+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:22:17.912+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:22:17.911+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:22:17.951+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:22:17.950+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:22:18.003+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.507 seconds
+[2024-04-20T12:23:08.656+0700] {processor.py:161} INFO - Started process (PID=7658) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:23:08.660+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:23:08.665+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:23:08.664+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:23:10.930+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:23:10.944+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:23:10.967+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:23:10.966+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:23:11.000+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:23:10.999+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:23:11.038+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.412 seconds
+[2024-04-20T12:24:10.473+0700] {processor.py:161} INFO - Started process (PID=8464) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:10.480+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:24:10.484+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:10.483+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:12.528+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:24:12.551+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:12.591+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:12.589+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:24:12.643+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:12.642+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:24:12.708+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.254 seconds
+[2024-04-20T12:24:51.823+0700] {processor.py:161} INFO - Started process (PID=8788) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:51.827+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:24:51.831+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:51.830+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:53.720+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:24:53.738+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:24:53.768+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:53.767+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:24:53.826+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:24:53.826+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:24:53.875+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.073 seconds
+[2024-04-20T12:25:34.890+0700] {processor.py:161} INFO - Started process (PID=9298) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:25:34.897+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:25:34.904+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:25:34.902+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:25:36.475+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:25:36.489+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:25:36.510+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:25:36.509+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:25:36.541+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:25:36.541+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:25:36.578+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.712 seconds
+[2024-04-20T12:26:22.610+0700] {processor.py:161} INFO - Started process (PID=9897) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:26:22.625+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:26:22.629+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:22.628+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:26:24.423+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:26:24.438+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:26:24.459+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:24.457+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:26:24.512+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:26:24.511+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:26:24.580+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.987 seconds
+[2024-04-20T12:27:02.951+0700] {processor.py:161} INFO - Started process (PID=10276) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:02.954+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:27:02.957+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:02.956+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:04.702+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:27:04.721+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:04.747+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:04.745+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:27:04.830+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:04.829+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:27:04.890+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.966 seconds
+[2024-04-20T12:27:46.956+0700] {processor.py:161} INFO - Started process (PID=10732) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:46.959+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:27:46.962+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:46.961+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:49.443+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:27:49.475+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:27:49.518+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:49.509+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:27:49.630+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:27:49.629+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:27:49.699+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.798 seconds
+[2024-04-20T12:28:42.749+0700] {processor.py:161} INFO - Started process (PID=11621) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:28:42.753+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:28:42.757+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:28:42.756+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:28:44.328+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:28:44.360+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:28:44.400+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:28:44.398+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:28:44.481+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:28:44.480+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:28:44.582+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.849 seconds
+[2024-04-20T12:29:33.424+0700] {processor.py:161} INFO - Started process (PID=12326) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:29:33.429+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:29:33.432+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:33.431+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:29:35.510+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:29:35.534+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:29:35.560+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:35.557+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:29:35.615+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:29:35.614+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:29:35.688+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.300 seconds
+[2024-04-20T12:31:01.377+0700] {processor.py:161} INFO - Started process (PID=13675) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:01.406+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:31:01.409+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:01.408+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:03.067+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:31:03.083+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:03.105+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:03.104+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:31:03.137+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:03.137+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:31:03.183+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.830 seconds
+[2024-04-20T12:31:53.147+0700] {processor.py:161} INFO - Started process (PID=14474) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:53.150+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:31:53.153+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:53.152+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:54.836+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:31:54.855+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:31:54.880+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:54.879+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:31:54.916+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:31:54.915+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:31:54.955+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.837 seconds
+[2024-04-20T12:32:36.325+0700] {processor.py:161} INFO - Started process (PID=14740) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:32:36.328+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:32:36.330+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:36.330+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:32:37.947+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:32:37.963+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:32:37.983+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:37.982+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:32:38.019+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:32:38.019+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:32:38.071+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.766 seconds
+[2024-04-20T12:33:15.109+0700] {processor.py:161} INFO - Started process (PID=15045) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:15.111+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:33:15.115+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:15.114+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:17.278+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:33:17.294+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:17.315+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:17.314+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:33:17.350+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:17.349+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:33:17.394+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.316 seconds
+[2024-04-20T12:33:53.709+0700] {processor.py:161} INFO - Started process (PID=15353) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:53.712+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:33:53.715+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:53.714+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:55.657+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:33:55.688+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:33:55.735+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:55.734+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:33:55.789+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:33:55.789+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:33:55.840+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.159 seconds
+[2024-04-20T12:34:45.323+0700] {processor.py:161} INFO - Started process (PID=16028) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:34:45.327+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:34:45.329+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:45.328+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:34:47.087+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:34:47.115+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:34:47.160+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:47.158+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:34:47.259+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:34:47.258+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:34:47.335+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.034 seconds
+[2024-04-20T12:35:35.099+0700] {processor.py:161} INFO - Started process (PID=16459) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:35:35.101+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:35:35.103+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:35.102+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:35:38.284+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:35:38.303+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:35:38.328+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:38.327+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:35:38.384+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:35:38.383+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:35:38.442+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 3.362 seconds
+[2024-04-20T12:36:16.852+0700] {processor.py:161} INFO - Started process (PID=16778) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:16.855+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:36:16.857+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:16.857+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:19.118+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:36:19.132+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:19.153+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:19.152+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:36:19.188+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:19.187+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:36:19.231+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.401 seconds
+[2024-04-20T12:36:56.228+0700] {processor.py:161} INFO - Started process (PID=17210) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:56.232+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:36:56.234+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:56.234+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:57.931+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:36:57.951+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:36:57.987+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:57.985+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:36:58.045+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:36:58.044+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:36:58.090+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.881 seconds
+[2024-04-20T12:37:34.022+0700] {processor.py:161} INFO - Started process (PID=17509) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:37:34.025+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:37:34.027+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:34.027+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:37:35.575+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:37:35.591+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:37:35.611+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:35.610+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:37:35.651+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:37:35.651+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:37:35.688+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.687 seconds
+[2024-04-20T12:38:12.928+0700] {processor.py:161} INFO - Started process (PID=17877) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:12.932+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:38:12.934+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:12.933+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:14.893+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:38:14.919+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:14.946+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:14.945+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:38:14.994+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:14.993+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:38:15.260+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.353 seconds
+[2024-04-20T12:38:53.326+0700] {processor.py:161} INFO - Started process (PID=18246) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:53.330+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:38:53.332+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:53.331+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:55.584+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:38:55.600+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:38:55.621+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:55.620+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:38:55.700+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:38:55.699+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:38:55.761+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.452 seconds
+[2024-04-20T12:39:32.923+0700] {processor.py:161} INFO - Started process (PID=18502) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:39:32.926+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:39:32.928+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:32.927+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:39:35.138+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:39:35.186+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:39:35.245+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:35.243+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:39:35.334+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:39:35.332+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:39:35.583+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 2.687 seconds
+[2024-04-20T12:40:09.394+0700] {processor.py:161} INFO - Started process (PID=18796) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:40:09.397+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:40:09.398+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:09.397+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:40:10.612+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:40:10.628+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:40:10.639+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:10.638+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:40:10.678+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:40:10.678+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:40:10.704+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.327 seconds
+[2024-04-20T12:41:10.888+0700] {processor.py:161} INFO - Started process (PID=19240) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:10.889+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:41:10.890+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:10.890+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:12.076+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:41:12.098+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:12.117+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:12.116+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:41:12.159+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:12.159+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:41:12.200+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.332 seconds
+[2024-04-20T12:41:43.689+0700] {processor.py:161} INFO - Started process (PID=19464) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:43.691+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:41:43.693+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:43.692+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:44.777+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:41:44.789+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:41:44.802+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:44.801+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:41:44.822+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:41:44.821+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:41:44.863+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.198 seconds
+[2024-04-20T12:42:42.439+0700] {processor.py:161} INFO - Started process (PID=19958) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:42:42.442+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:42:42.443+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:42.443+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:42:43.417+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:42:43.427+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:42:43.440+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:43.439+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:42:43.459+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:42:43.458+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:42:43.492+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.071 seconds
+[2024-04-20T12:43:16.035+0700] {processor.py:161} INFO - Started process (PID=20240) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:43:16.036+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:43:16.038+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:16.038+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:43:17.176+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:43:17.192+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:43:17.209+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:17.208+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:43:17.238+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:43:17.238+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:43:17.275+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.260 seconds
+[2024-04-20T12:44:14.487+0700] {processor.py:161} INFO - Started process (PID=20672) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:44:14.490+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:44:14.492+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:14.491+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:44:15.695+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:44:15.707+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:44:15.723+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:15.722+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:44:15.742+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:44:15.742+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:44:15.765+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.298 seconds
+[2024-04-20T12:45:11.948+0700] {processor.py:161} INFO - Started process (PID=21102) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:11.950+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:45:11.952+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:11.952+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:13.071+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:45:13.084+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:13.096+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:13.095+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:45:13.122+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:13.122+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:45:13.156+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.228 seconds
+[2024-04-20T12:45:45.564+0700] {processor.py:161} INFO - Started process (PID=21330) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:45.568+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:45:45.569+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:45.569+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:46.924+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:45:46.934+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:45:46.949+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:46.948+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:45:46.970+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:45:46.970+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:45:47.003+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.451 seconds
+[2024-04-20T12:46:45.146+0700] {processor.py:161} INFO - Started process (PID=21774) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:46:45.149+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:46:45.152+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:45.151+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:46:46.260+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:46:46.275+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:46:46.292+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:46.292+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:46:46.311+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:46:46.311+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:46:46.351+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.225 seconds
+[2024-04-20T12:47:46.578+0700] {processor.py:161} INFO - Started process (PID=22291) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:47:46.582+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:47:46.583+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:46.583+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:47:47.809+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:47:47.820+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:47:47.833+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:47.832+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:47:47.852+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:47:47.851+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:47:47.885+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.327 seconds
+[2024-04-20T12:48:20.105+0700] {processor.py:161} INFO - Started process (PID=22571) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:20.109+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:48:20.111+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:20.111+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:21.163+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:48:21.179+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:21.200+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:21.198+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:48:21.219+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:21.219+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:48:21.241+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.155 seconds
+[2024-04-20T12:48:54.153+0700] {processor.py:161} INFO - Started process (PID=22860) to work on /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:54.154+0700] {processor.py:830} INFO - Processing file /home/newrey/airflow/dags/Soal_Eksplorasi.py for tasks to queue
+[2024-04-20T12:48:54.156+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:54.156+0700] {dagbag.py:540} INFO - Filling up the DagBag from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:55.169+0700] {logging_mixin.py:188} INFO - Warning: Your Kaggle API key is readable by other users on this system! To fix this, you can run 'chmod 600 /home/newrey/.kaggle/kaggle.json'
+[2024-04-20T12:48:55.190+0700] {processor.py:840} INFO - DAG(s) 'data_analysis_workflow_dag' retrieved from /home/newrey/airflow/dags/Soal_Eksplorasi.py
+[2024-04-20T12:48:55.215+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:55.214+0700] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-04-20T12:48:55.241+0700] {logging_mixin.py:188} INFO - [2024-04-20T12:48:55.241+0700] {dag.py:3954} INFO - Setting next_dagrun for data_analysis_workflow_dag to 2024-04-20 00:00:00+00:00, run_after=2024-04-21 00:00:00+00:00
+[2024-04-20T12:48:55.271+0700] {processor.py:183} INFO - Processing /home/newrey/airflow/dags/Soal_Eksplorasi.py took 1.135 seconds
