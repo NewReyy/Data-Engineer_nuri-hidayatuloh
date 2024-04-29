@@ -1,0 +1,244 @@
+LAPTOP-984VLCTV.
+*** Found local files:
+***   * /home/newrey/airflow/logs/dag_id=DAG_Code-Competance-2/run_id=manual__2024-04-29T08:30:05.304457+00:00/task_id=execute_data_ingestion/attempt=1.log
+[2024-04-29T15:30:11.672+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-29T15:30:11.770+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_Code-Competance-2.execute_data_ingestion manual__2024-04-29T08:30:05.304457+00:00 [queued]>
+[2024-04-29T15:30:11.806+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_Code-Competance-2.execute_data_ingestion manual__2024-04-29T08:30:05.304457+00:00 [queued]>
+[2024-04-29T15:30:11.818+0700] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-29T15:30:11.953+0700] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): execute_data_ingestion> on 2024-04-29 08:30:05.304457+00:00
+[2024-04-29T15:30:11.960+0700] {standard_task_runner.py:63} INFO - Started process 121207 to run task
+[2024-04-29T15:30:11.970+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'DAG_Code-Competance-2', 'execute_data_ingestion', 'manual__2024-04-29T08:30:05.304457+00:00', '--job-id', '77', '--raw', '--subdir', 'DAGS_FOLDER/DAG_ETL_Code-Competance-2.py', '--cfg-path', '/tmp/tmp47fhu7zg']
+[2024-04-29T15:30:11.971+0700] {standard_task_runner.py:91} INFO - Job 77: Subtask execute_data_ingestion
+[2024-04-29T15:30:12.137+0700] {task_command.py:426} INFO - Running <TaskInstance: DAG_Code-Competance-2.execute_data_ingestion manual__2024-04-29T08:30:05.304457+00:00 [running]> on host LAPTOP-984VLCTV.
+[2024-04-29T15:30:12.329+0700] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nuri' AIRFLOW_CTX_DAG_ID='DAG_Code-Competance-2' AIRFLOW_CTX_TASK_ID='execute_data_ingestion' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T08:30:05.304457+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T08:30:05.304457+00:00'
+[2024-04-29T15:30:12.330+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-29T15:30:12.335+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,335 - DataLakeBuilder - INFO - Berhasil read Data
+[2024-04-29T15:30:12.335+0700] {data_ingestion.py:21} INFO - Berhasil read Data
+[2024-04-29T15:30:12.350+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,350 - DataLakeBuilder - INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.350+0700] {data_ingestion.py:32} INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.353+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,353 - DataLakeBuilder - INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.353+0700] {data_ingestion.py:63} INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.379+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,379 - DataLakeBuilder - INFO - Saved DataFrame to Parquet file: events.parquet
+[2024-04-29T15:30:12.379+0700] {data_ingestion.py:72} INFO - Saved DataFrame to Parquet file: events.parquet
+[2024-04-29T15:30:12.416+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,416 - DataLakeBuilder - INFO - Ringkasan Data dari file events.parquet:
+[2024-04-29T15:30:12.416+0700] {data_ingestion.py:79} INFO - Ringkasan Data dari file events.parquet:
+[2024-04-29T15:30:12.417+0700] {data_ingestion.py:80} INFO -    event_id  ...  category
+0         1  ...  Festival
+1         2  ...  Festival
+2         3  ...  Festival
+3         4  ...  Festival
+4         5  ...  Festival
+[5 rows x 5 columns]
+[2024-04-29T15:30:12.437+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,417 - DataLakeBuilder - INFO -    event_id  ...  category
+0         1  ...  Festival
+1         2  ...  Festival
+2         3  ...  Festival
+3         4  ...  Festival
+4         5  ...  Festival
+[5 rows x 5 columns]
+[2024-04-29T15:30:12.470+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,470 - DataLakeBuilder - INFO - 
+        event_id
+count  25.000000
+mean   13.000000
+std     7.359801
+min     1.000000
+25%     7.000000
+50%    13.000000
+75%    19.000000
+max    25.000000
+[2024-04-29T15:30:12.470+0700] {data_ingestion.py:81} INFO - 
+        event_id
+count  25.000000
+mean   13.000000
+std     7.359801
+min     1.000000
+25%     7.000000
+50%    13.000000
+75%    19.000000
+max    25.000000
+[2024-04-29T15:30:12.471+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,471 - DataLakeBuilder - INFO -
+[2024-04-29T15:30:12.471+0700] {data_ingestion.py:82} INFO - 
+[2024-04-29T15:30:12.472+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,472 - DataLakeBuilder - INFO - Berhasil read Data
+[2024-04-29T15:30:12.472+0700] {data_ingestion.py:21} INFO - Berhasil read Data
+[2024-04-29T15:30:12.483+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,483 - DataLakeBuilder - INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.483+0700] {data_ingestion.py:32} INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.488+0700] {data_ingestion.py:63} INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.489+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,488 - DataLakeBuilder - INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.494+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,494 - DataLakeBuilder - INFO - Saved DataFrame to Parquet file: customers.parquet
+[2024-04-29T15:30:12.494+0700] {data_ingestion.py:72} INFO - Saved DataFrame to Parquet file: customers.parquet
+[2024-04-29T15:30:12.502+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,502 - DataLakeBuilder - INFO - Ringkasan Data dari file customers.parquet:
+[2024-04-29T15:30:12.502+0700] {data_ingestion.py:79} INFO - Ringkasan Data dari file customers.parquet:
+[2024-04-29T15:30:12.504+0700] {data_ingestion.py:80} INFO -    customer_id  name             email         phone
+0            1   Ali   ali@example.com  021-555-1234
+1            2  Budi  budi@example.com  021-555-5678
+2            3  Cici  cici@example.com  021-555-9012
+3            4  Dini  dini@example.com  021-555-3456
+4            5   Eko   eko@example.com  021-555-7890
+[2024-04-29T15:30:12.527+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,504 - DataLakeBuilder - INFO -    customer_id  name             email         phone
+0            1   Ali   ali@example.com  021-555-1234
+1            2  Budi  budi@example.com  021-555-5678
+2            3  Cici  cici@example.com  021-555-9012
+3            4  Dini  dini@example.com  021-555-3456
+4            5   Eko   eko@example.com  021-555-7890
+[2024-04-29T15:30:12.569+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,569 - DataLakeBuilder - INFO - 
+       customer_id
+count     10.00000
+mean       5.50000
+std        3.02765
+min        1.00000
+25%        3.25000
+50%        5.50000
+75%        7.75000
+max       10.00000
+[2024-04-29T15:30:12.569+0700] {data_ingestion.py:81} INFO - 
+       customer_id
+count     10.00000
+mean       5.50000
+std        3.02765
+min        1.00000
+25%        3.25000
+50%        5.50000
+75%        7.75000
+max       10.00000
+[2024-04-29T15:30:12.570+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,570 - DataLakeBuilder - INFO -
+[2024-04-29T15:30:12.570+0700] {data_ingestion.py:82} INFO - 
+[2024-04-29T15:30:12.571+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,571 - DataLakeBuilder - INFO - Berhasil read Data
+[2024-04-29T15:30:12.571+0700] {data_ingestion.py:21} INFO - Berhasil read Data
+[2024-04-29T15:30:12.594+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,594 - DataLakeBuilder - INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.594+0700] {data_ingestion.py:32} INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.596+0700] {data_ingestion.py:63} INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.597+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,596 - DataLakeBuilder - INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.612+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,612 - DataLakeBuilder - INFO - Saved DataFrame to Parquet file: tickets.parquet
+[2024-04-29T15:30:12.612+0700] {data_ingestion.py:72} INFO - Saved DataFrame to Parquet file: tickets.parquet
+[2024-04-29T15:30:12.630+0700] {data_ingestion.py:79} INFO - Ringkasan Data dari file tickets.parquet:
+[2024-04-29T15:30:12.631+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,630 - DataLakeBuilder - INFO - Ringkasan Data dari file tickets.parquet:
+[2024-04-29T15:30:12.632+0700] {data_ingestion.py:80} INFO -    ticket_id  event_id category   price
+0          1         1      VIP  500000
+1          2         1  Regular  250000
+2          3         2      VIP  500000
+3          4         2  Regular  250000
+4          5         3      VIP  500000
+[2024-04-29T15:30:12.664+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,632 - DataLakeBuilder - INFO -    ticket_id  event_id category   price
+0          1         1      VIP  500000
+1          2         1  Regular  250000
+2          3         2      VIP  500000
+3          4         2  Regular  250000
+4          5         3      VIP  500000
+[2024-04-29T15:30:12.709+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,709 - DataLakeBuilder - INFO - 
+       ticket_id   event_id         price
+count   50.00000  50.000000  5.000000e+01
+mean    25.50000  13.000000  1.770000e+06
+std     14.57738   7.284314  2.999847e+06
+min      1.00000   1.000000  1.000000e+05
+25%     13.25000   7.000000  2.125000e+05
+50%     25.50000  13.000000  5.000000e+05
+75%     37.75000  19.000000  1.375000e+06
+max     50.00000  25.000000  1.500000e+07
+[2024-04-29T15:30:12.709+0700] {data_ingestion.py:81} INFO - 
+       ticket_id   event_id         price
+count   50.00000  50.000000  5.000000e+01
+mean    25.50000  13.000000  1.770000e+06
+std     14.57738   7.284314  2.999847e+06
+min      1.00000   1.000000  1.000000e+05
+25%     13.25000   7.000000  2.125000e+05
+50%     25.50000  13.000000  5.000000e+05
+75%     37.75000  19.000000  1.375000e+06
+max     50.00000  25.000000  1.500000e+07
+[2024-04-29T15:30:12.710+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,710 - DataLakeBuilder - INFO -
+[2024-04-29T15:30:12.710+0700] {data_ingestion.py:82} INFO - 
+[2024-04-29T15:30:12.710+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,710 - DataLakeBuilder - INFO - Berhasil read Data
+[2024-04-29T15:30:12.710+0700] {data_ingestion.py:21} INFO - Berhasil read Data
+[2024-04-29T15:30:12.738+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,738 - DataLakeBuilder - INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.738+0700] {data_ingestion.py:32} INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.741+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,741 - DataLakeBuilder - INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.741+0700] {data_ingestion.py:63} INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.746+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,746 - DataLakeBuilder - INFO - Berhasil Mengatasi Outliers
+[2024-04-29T15:30:12.746+0700] {data_ingestion.py:50} INFO - Berhasil Mengatasi Outliers
+[2024-04-29T15:30:12.756+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,756 - DataLakeBuilder - INFO - Saved DataFrame to Parquet file: transactions.parquet
+[2024-04-29T15:30:12.756+0700] {data_ingestion.py:72} INFO - Saved DataFrame to Parquet file: transactions.parquet
+[2024-04-29T15:30:12.766+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,766 - DataLakeBuilder - INFO - Ringkasan Data dari file transactions.parquet:
+[2024-04-29T15:30:12.766+0700] {data_ingestion.py:79} INFO - Ringkasan Data dari file transactions.parquet:
+[2024-04-29T15:30:12.767+0700] {data_ingestion.py:80} INFO -    transaction_id  ticket_id  customer_id        date  quantity  total_amount
+0               1          1            1  2023-08-04         1      500000.0
+1               2          2            2  2023-08-05         2     1000000.0
+2               3          3            3  2023-08-06         1      500000.0
+3               4          4            4  2023-08-07         3     1500000.0
+4               5          5            5  2023-08-08         2     1000000.0
+[2024-04-29T15:30:12.783+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,767 - DataLakeBuilder - INFO -    transaction_id  ticket_id  customer_id        date  quantity  total_amount
+0               1          1            1  2023-08-04         1      500000.0
+1               2          2            2  2023-08-05         2     1000000.0
+2               3          3            3  2023-08-06         1      500000.0
+3               4          4            4  2023-08-07         3     1500000.0
+4               5          5            5  2023-08-08         2     1000000.0
+[2024-04-29T15:30:12.841+0700] {data_ingestion.py:81} INFO - 
+       transaction_id  ticket_id  customer_id   quantity  total_amount
+count       30.000000  30.000000    30.000000  30.000000  3.000000e+01
+mean        15.500000  15.500000     5.500000   2.000000  3.768333e+06
+std          8.803408   8.803408     2.921384   1.017095  2.493318e+06
+min          1.000000   1.000000     1.000000   1.000000  5.000000e+05
+25%          8.250000   8.250000     3.000000   1.000000  1.125000e+06
+50%         15.500000  15.500000     5.500000   2.000000  4.850000e+06
+75%         22.750000  22.750000     8.000000   3.000000  4.850000e+06
+max         30.000000  30.000000    10.000000   4.000000  1.000000e+07
+[2024-04-29T15:30:12.842+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,841 - DataLakeBuilder - INFO - 
+       transaction_id  ticket_id  customer_id   quantity  total_amount
+count       30.000000  30.000000    30.000000  30.000000  3.000000e+01
+mean        15.500000  15.500000     5.500000   2.000000  3.768333e+06
+std          8.803408   8.803408     2.921384   1.017095  2.493318e+06
+min          1.000000   1.000000     1.000000   1.000000  5.000000e+05
+25%          8.250000   8.250000     3.000000   1.000000  1.125000e+06
+50%         15.500000  15.500000     5.500000   2.000000  4.850000e+06
+75%         22.750000  22.750000     8.000000   3.000000  4.850000e+06
+max         30.000000  30.000000    10.000000   4.000000  1.000000e+07
+[2024-04-29T15:30:12.843+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,843 - DataLakeBuilder - INFO -
+[2024-04-29T15:30:12.843+0700] {data_ingestion.py:82} INFO - 
+[2024-04-29T15:30:12.843+0700] {data_ingestion.py:21} INFO - Berhasil read Data
+[2024-04-29T15:30:12.844+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,843 - DataLakeBuilder - INFO - Berhasil read Data
+[2024-04-29T15:30:12.861+0700] {data_ingestion.py:32} INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.862+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,861 - DataLakeBuilder - INFO - Berhasil Mengatasi Missing Value
+[2024-04-29T15:30:12.865+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,865 - DataLakeBuilder - INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.865+0700] {data_ingestion.py:63} INFO - Berhasil Mengatasi Duplicates Row
+[2024-04-29T15:30:12.869+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,869 - DataLakeBuilder - INFO - Saved DataFrame to Parquet file: customer_feedback.parquet
+[2024-04-29T15:30:12.869+0700] {data_ingestion.py:72} INFO - Saved DataFrame to Parquet file: customer_feedback.parquet
+[2024-04-29T15:30:12.876+0700] {data_ingestion.py:79} INFO - Ringkasan Data dari file customer_feedback.parquet:
+[2024-04-29T15:30:12.877+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,876 - DataLakeBuilder - INFO - Ringkasan Data dari file customer_feedback.parquet:
+[2024-04-29T15:30:12.878+0700] {data_ingestion.py:80} INFO -    feedback_id  transaction_id  rating                     comment
+0            1               1       5      Acara yang luar biasa!
+1            2               2       4                Mencintainya
+2            3               3       3                   Rata-rata
+3            4               4       5  Penampilan yang luar biasa
+4            5               5       4                       Bagus
+[2024-04-29T15:30:12.896+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,878 - DataLakeBuilder - INFO -    feedback_id  transaction_id  rating                     comment
+0            1               1       5      Acara yang luar biasa!
+1            2               2       4                Mencintainya
+2            3               3       3                   Rata-rata
+3            4               4       5  Penampilan yang luar biasa
+4            5               5       4                       Bagus
+[2024-04-29T15:30:12.922+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,922 - DataLakeBuilder - INFO - 
+       feedback_id  transaction_id     rating
+count     10.00000        10.00000  10.000000
+mean       5.50000         5.50000   3.800000
+std        3.02765         3.02765   1.032796
+min        1.00000         1.00000   2.000000
+25%        3.25000         3.25000   3.000000
+50%        5.50000         5.50000   4.000000
+75%        7.75000         7.75000   4.750000
+max       10.00000        10.00000   5.000000
+[2024-04-29T15:30:12.922+0700] {data_ingestion.py:81} INFO - 
+       feedback_id  transaction_id     rating
+count     10.00000        10.00000  10.000000
+mean       5.50000         5.50000   3.800000
+std        3.02765         3.02765   1.032796
+min        1.00000         1.00000   2.000000
+25%        3.25000         3.25000   3.000000
+50%        5.50000         5.50000   4.000000
+75%        7.75000         7.75000   4.750000
+max       10.00000        10.00000   5.000000
+[2024-04-29T15:30:12.922+0700] {logging_mixin.py:188} WARNING - 2024-04-29 15:30:12,922 - DataLakeBuilder - INFO -
+[2024-04-29T15:30:12.922+0700] {data_ingestion.py:82} INFO - 
+[2024-04-29T15:30:12.924+0700] {python.py:237} INFO - Done. Returned value was: None
+[2024-04-29T15:30:12.924+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-29T15:30:12.934+0700] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=DAG_Code-Competance-2, task_id=execute_data_ingestion, execution_date=20240429T083005, start_date=20240429T083011, end_date=20240429T083012
+[2024-04-29T15:30:12.992+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-04-29T15:30:13.027+0700] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-04-29T15:30:13.035+0700] {local_task_job_runner.py:222} INFO - ::endgroup::

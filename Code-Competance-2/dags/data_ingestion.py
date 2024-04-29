@@ -18,6 +18,7 @@ class DataLakeBuilder:
 
     def read_csv_data(self, file_path):
         try:
+            self.logger.info("Berhasil read Data")
             return pd.read_csv(file_path)  # Baca file CSV dan kembalikan DataFrame
         except Exception as e:
             self.logger.error(f"Error reading CSV file {file_path}: {e}")  # Tangani kesalahan jika gagal membaca file
@@ -26,13 +27,15 @@ class DataLakeBuilder:
     def handle_missing_values(self, df):
         try:
             numeric_columns = df.select_dtypes(include=[np.number]).columns.tolist()  # Ambil nama kolom numerik
+            df[numeric_columns] = df[numeric_columns].replace(0, np.nan)  # Ganti nilai 0 dengan NaN
             df[numeric_columns] = df[numeric_columns].fillna(df[numeric_columns].mean())  # Isi nilai yang hilang dengan rata-rata
+            self.logger.info("Berhasil Mengatasi Missing Value")
             return df
         except Exception as e:
             self.logger.error(f"Error handling missing values: {e}")  # Tangani kesalahan jika gagal menangani nilai yang hilang
             return None
     
-    def handle_outliers(self, df, column, method='median'):
+    def handle_outliers(self, df, column, method='mean'):
         try:
             Q1 = df[column].quantile(0.25)  # Kuartil pertama
             Q3 = df[column].quantile(0.75)  # Kuartil ketiga
@@ -41,11 +44,14 @@ class DataLakeBuilder:
             upper_bound = Q3 + 1.5 * IQR  # Batas atas
             if method == 'median':
                 df[column] = np.where((df[column] < lower_bound) | (df[column] > upper_bound), df[column].median(), df[column])  # Tangani outlier dengan median
+                self.logger.info("Berhasil Mengatasi Outliers")
             elif method == 'mean':
                 df[column] = np.where((df[column] < lower_bound) | (df[column] > upper_bound), df[column].mean(), df[column])  # Tangani outlier dengan mean
+                self.logger.info("Berhasil Mengatasi Outliers")
             else:
                 self.logger.warning("Invalid method for handling outliers. Using median instead.")
                 df[column] = np.where((df[column] < lower_bound) | (df[column] > upper_bound), df[column].median(), df[column])  # Tangani outlier dengan median jika metode tidak valid
+                self.logger.info("Berhasil Mengatasi Outliers")
             return df
         except Exception as e:
             self.logger.error(f"Error handling outliers: {e}")  # Tangani kesalahan jika gagal menangani outlier
@@ -54,6 +60,7 @@ class DataLakeBuilder:
     def handle_duplicates(self, df):
         try:
             df.drop_duplicates(inplace=True)  # Hapus baris duplikat
+            self.logger.info("Berhasil Mengatasi Duplicates Row")
             return df
         except Exception as e:
             self.logger.error(f"Error handling duplicates: {e}")  # Tangani kesalahan jika gagal menangani duplikat
@@ -91,8 +98,8 @@ if __name__ == "__main__":
             data = builder.read_csv_data(csv_file_path)
             if data is not None:
                 data = builder.handle_missing_values(data)
-                if data is not None and 'amount' in data.columns:
-                    data = builder.handle_outliers(data, 'amount')
+                if data is not None and 'total_amount' in data.columns:
+                    data = builder.handle_outliers(data, 'total_amount')
                 data = builder.handle_duplicates(data)
                 if data is not None:
                     builder.save_to_parquet(data, parquet_file_path)

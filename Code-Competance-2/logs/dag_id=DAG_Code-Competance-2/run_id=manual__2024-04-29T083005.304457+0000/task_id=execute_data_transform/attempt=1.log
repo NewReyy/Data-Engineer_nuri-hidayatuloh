@@ -1,0 +1,36 @@
+[2024-04-29T15:30:18.993+0700] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-04-29T15:30:19.049+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: DAG_Code-Competance-2.execute_data_transform manual__2024-04-29T08:30:05.304457+00:00 [queued]>
+[2024-04-29T15:30:19.063+0700] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: DAG_Code-Competance-2.execute_data_transform manual__2024-04-29T08:30:05.304457+00:00 [queued]>
+[2024-04-29T15:30:19.064+0700] {taskinstance.py:2303} INFO - Starting attempt 1 of 2
+[2024-04-29T15:30:19.083+0700] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): execute_data_transform> on 2024-04-29 08:30:05.304457+00:00
+[2024-04-29T15:30:19.088+0700] {standard_task_runner.py:63} INFO - Started process 121333 to run task
+[2024-04-29T15:30:19.092+0700] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'DAG_Code-Competance-2', 'execute_data_transform', 'manual__2024-04-29T08:30:05.304457+00:00', '--job-id', '78', '--raw', '--subdir', 'DAGS_FOLDER/DAG_ETL_Code-Competance-2.py', '--cfg-path', '/tmp/tmps6l61x4x']
+[2024-04-29T15:30:19.093+0700] {standard_task_runner.py:91} INFO - Job 78: Subtask execute_data_transform
+[2024-04-29T15:30:19.139+0700] {task_command.py:426} INFO - Running <TaskInstance: DAG_Code-Competance-2.execute_data_transform manual__2024-04-29T08:30:05.304457+00:00 [running]> on host LAPTOP-984VLCTV.
+[2024-04-29T15:30:19.212+0700] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='nuri' AIRFLOW_CTX_DAG_ID='DAG_Code-Competance-2' AIRFLOW_CTX_TASK_ID='execute_data_transform' AIRFLOW_CTX_EXECUTION_DATE='2024-04-29T08:30:05.304457+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-29T08:30:05.304457+00:00'
+[2024-04-29T15:30:19.214+0700] {taskinstance.py:430} INFO - ::endgroup::
+[2024-04-29T15:30:19.214+0700] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-04-29T15:30:19.215+0700] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/newrey/airflow/dags/DAG_ETL_Code-Competance-2.py", line 40, in execute_data_transform
+    loader = DataWarehouseLoader()
+  File "/home/newrey/airflow/dags/data_transformation.py", line 11, in __init__
+    cred = credentials.Certificate(r"Code-Competance-2/cc2AccountKey.json")
+  File "/home/newrey/airflow/airflow-env/lib/python3.10/site-packages/firebase_admin/credentials.py", line 83, in __init__
+    with open(cert) as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'Code-Competance-2/cc2AccountKey.json'
+[2024-04-29T15:30:19.220+0700] {taskinstance.py:1205} INFO - Marking task as UP_FOR_RETRY. dag_id=DAG_Code-Competance-2, task_id=execute_data_transform, execution_date=20240429T083005, start_date=20240429T083019, end_date=20240429T083019
+[2024-04-29T15:30:19.233+0700] {standard_task_runner.py:110} ERROR - Failed to execute job 78 for task execute_data_transform ([Errno 2] No such file or directory: 'Code-Competance-2/cc2AccountKey.json'; 121333)
+[2024-04-29T15:30:19.265+0700] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-04-29T15:30:19.287+0700] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-04-29T15:30:19.289+0700] {local_task_job_runner.py:222} INFO - ::endgroup::
